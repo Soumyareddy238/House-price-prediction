@@ -89,64 +89,82 @@ Technologies Used
 
 Project Screenshots
 
-Home Page
+## 🖥️ Web Application Interface
 
-This is the landing page of the House Price Prediction System.
-Users can enter property details and navigate to different features.
+### 🏠 Home Page
 
-"Home Page" (home_page.png)
-
----
-
-Prediction Page
-
-This page allows users to input property details such as area, location, BHK, and other features.
-The system predicts the house price and detects whether it is normal, overpriced, or underpriced.
-
-"Prediction Page" (prediction_page.png)
+The Home Page serves as the central navigation hub of the application, providing an overview of the system and its key functionalities.
+It offers intuitive access to modules such as price prediction, market analysis, and recommendations, ensuring a seamless user experience.
 
 ---
 
-Recommendation Page
+### 🔐 Login Page
 
-This page provides similar property recommendations based on user input using the KNN algorithm.
-
-"Recommendation Page" (recommendation_page.png)
-
----
-
-Insights Dashboard
-
-Displays analytical insights such as:
-
-- Average price by location
-- Average price by property type
-- Scatter data for visualization
-
-"Insights Page" (insights_page.png)
+The Login Page enables secure authentication for registered users.
+It ensures that only authorized users can access personalized features and system functionalities, maintaining data privacy and integrity.
 
 ---
 
-Admin Dashboard
+### 📝 Signup Page
 
-Admin panel to manage the system:
-
-- Add new properties
-- Edit existing properties
-- Delete properties
-- View total properties and users
-
-"Admin Dashboard" (admin_dashboard.png)
+The Signup Page allows new users to register by providing essential credentials.
+It is designed for a smooth onboarding process with proper input validation and user-friendly interaction.
 
 ---
 
-Login Page
+### 🛠️ Admin Dashboard
 
-Allows users and admin to securely login into the system.
-
-"Login Page" (login_page.png)
+The Admin Dashboard provides centralized control over the application.
+It allows administrators to manage datasets, monitor user activity, and maintain system performance, ensuring efficient operation of the platform.
 
 ---
+
+### 💰 Price Estimator
+
+The Price Estimator is the core component of the application.
+Users can input various property attributes such as location, number of rooms, area, and other relevant features to obtain predicted house prices.
+
+The predictions are generated using trained machine learning models, ensuring accurate and data-driven outputs.
+
+---
+
+### 📊 Market Insights
+
+The Market Insights module presents analytical visualizations and trends derived from housing datasets.
+
+It helps users:
+
+* Understand pricing patterns
+* Analyze feature correlations
+* Identify market trends
+
+This enhances decision-making for buyers, sellers, and analysts.
+
+---
+
+### 🤝 Recommendation System
+
+The Recommendation System provides intelligent suggestions based on user input and model predictions.
+
+It enhances user engagement by:
+
+* Suggesting similar properties
+* Providing optimized pricing insights
+* Delivering personalized recommendations
+
+---
+
+## ✨ Key Features of the Application
+
+* End-to-end machine learning pipeline integration
+* User-friendly web interface
+* Secure authentication system
+* Real-time price prediction capability
+* Data-driven market analysis
+* Intelligent recommendation engine
+
+---
+
 
 Installation
 
