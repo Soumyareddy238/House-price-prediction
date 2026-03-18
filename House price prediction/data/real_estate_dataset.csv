@@ -1,0 +1,1001 @@
+area,location,bhk,property_type,nearby_school_distance,nearby_hospital_distance,bathrooms,price
+1360,Suburbs,3,apartment,9.2,8.2,3.0,6581538.92
+4272,Business District,2,apartment,,9.7,3.0,46450736.84
+3592,Downtown,3,independent house,3.3,9.3,2.0,55876798.15
+966,Downtown,4,apartment,4.8,17.4,4.0,13480631.87
+4926,Suburbs,4,apartment,9.5,10.8,4.0,21505960.66
+3944,Outskirts,2,apartment,9.2,9.6,3.0,10932260.98
+3671,Downtown,4,apartment,7.8,8.5,5.0,44501569.15
+3419,Downtown,1,apartment,5.6,16.4,1.0,41227264.33
+630,Business District,1,apartment,13.7,18.0,1.0,6727684.75
+2185,Industrial Area,3,apartment,5.4,17.1,4.0,7535710.62
+1269,Suburbs,2,apartment,7.1,13.6,3.0,6343145.04
+2891,Suburbs,2,villa,10.3,3.2,1.0,24122346.3
+2933,Outskirts,3,apartment,8.4,5.9,3.0,7721345.84
+1684,Outskirts,2,villa,5.5,1.4,1.0,6340820.42
+3885,Suburbs,2,apartment,6.8,18.7,1.0,20407432.43
+4617,Outskirts,2,apartment,12.0,13.4,3.0,9862362.59
+3404,Business District,3,villa,,15.1,3.0,56860030.9
+974,Suburbs,3,apartment,2.6,6.6,2.0,6085966.43
+1582,Outskirts,2,independent house,5.0,17.0,3.0,4662852.99
+3058,Suburbs,2,villa,12.8,5.6,3.0,22843595.59
+2547,Industrial Area,2,apartment,,0.5,2.0,8317625.23
+3247,Downtown,1,independent house,14.9,7.8,1.0,41034153.67
+1475,Suburbs,3,villa,8.3,11.6,2.0,12216848.14
+2306,Downtown,2,apartment,14.8,9.8,,24650457.96
+689,Outskirts,2,apartment,14.1,17.3,3.0,1626701.92
+3234,Downtown,3,apartment,7.1,2.6,3.0,47948718.32
+3505,Suburbs,3,independent house,3.4,11.3,3.0,24406871.57
+2399,Industrial Area,3,villa,2.9,10.5,2.0,12610131.65
+1767,Outskirts,2,independent house,4.0,6.0,3.0,5836774.92
+2028,Suburbs,2,villa,10.8,16.5,1.0,15344897.25
+3702,Outskirts,2,apartment,4.5,15.2,2.0,10809965.17
+4056,Business District,2,apartment,5.5,14.8,3.0,42394618.12
+4390,Downtown,3,villa,7.0,17.6,2.0,83446042.52
+1146,Business District,4,apartment,13.7,14.6,,9399329.62
+3388,Suburbs,3,independent house,3.2,5.0,4.0,19578145.97
+2935,Industrial Area,3,apartment,0.6,14.3,3.0,10738547.83
+1100,Outskirts,2,apartment,1.4,6.5,3.0,3437059.62
+2863,Downtown,3,villa,13.6,5.2,2.0,60635308.88
+2561,Outskirts,2,villa,9.9,1.9,1.0,11636176.82
+741,Suburbs,3,apartment,,15.0,2.0,3810656.28
+2541,Outskirts,2,villa,3.1,14.4,1.0,10794895.18
+3324,Downtown,2,apartment,4.8,5.1,2.0,49511489.05
+3112,Suburbs,2,villa,2.2,15.1,2.0,25683099.01
+1863,Outskirts,5,villa,14.2,18.4,4.0,6382358.36
+1978,Industrial Area,2,independent house,11.9,2.6,2.0,8223368.96
+3056,Suburbs,2,independent house,7.2,5.0,2.0,21393169.13
+1275,Suburbs,2,apartment,13.0,15.1,2.0,5750133.99
+4514,Industrial Area,3,apartment,4.1,5.9,2.0,18316198.61
+534,Business District,3,independent house,10.9,12.7,4.0,5653036.52
+3652,Downtown,3,apartment,,2.1,4.0,54700033.52
+2455,Business District,2,independent house,5.7,9.3,3.0,31226160.16
+2085,Outskirts,3,apartment,11.5,14.9,2.0,5378698.68
+4443,Industrial Area,2,villa,4.8,13.9,2.0,22285715.84
+3573,Business District,4,independent house,4.8,16.4,4.0,49526053.31
+1521,Suburbs,3,independent house,2.1,17.6,2.0,10008662.19
+3961,Outskirts,2,apartment,6.9,15.6,1.0,9247613.74
+3113,Outskirts,1,villa,11.1,13.6,2.0,11672291.49
+4343,Business District,1,apartment,14.1,1.1,2.0,43368004.18
+2000,Business District,2,apartment,9.3,10.9,3.0,18168921.65
+661,Industrial Area,2,villa,13.0,1.2,3.0,3415729.57
+4797,Downtown,3,villa,12.4,16.3,2.0,95475287.05
+2481,Business District,2,independent house,3.0,6.8,3.0,32228092.52
+1495,Business District,2,apartment,7.5,11.5,2.0,15594846.57
+3842,Suburbs,2,apartment,2.2,5.9,1.0,20498195.84
+4298,Outskirts,2,apartment,10.4,15.8,1.0,9583662.85
+1775,Downtown,4,apartment,14.3,17.8,4.0,24205150.63
+1516,Suburbs,2,apartment,,8.3,2.0,8131291.72
+837,Industrial Area,3,villa,11.1,17.3,3.0,4540632.87
+1378,Industrial Area,4,apartment,,5.7,5.0,4484256.42
+1576,Business District,3,independent house,9.0,10.9,2.0,16435177.4
+4493,Business District,4,independent house,6.2,17.2,5.0,60005524.0
+879,Industrial Area,2,villa,5.6,6.9,2.0,4865216.31
+992,Business District,5,independent house,1.2,19.1,6.0,11492186.06
+2562,Downtown,2,villa,3.7,2.9,2.0,50115098.13
+4384,Business District,2,apartment,0.7,0.9,3.0,56435547.41
+564,Outskirts,3,apartment,8.9,18.1,4.0,1353221.39
+3068,Business District,4,apartment,2.0,1.8,4.0,37229001.53
+2527,Suburbs,4,apartment,13.2,19.8,5.0,11468604.81
+3195,Downtown,1,independent house,8.1,19.1,1.0,45422444.65
+1995,Suburbs,2,apartment,10.6,3.2,3.0,11919505.16
+891,Suburbs,4,independent house,6.5,11.0,5.0,4951110.74
+4974,Outskirts,2,villa,8.6,4.1,1.0,19578206.98
+4061,Downtown,3,apartment,14.2,8.8,3.0,54573529.86
+2778,Downtown,4,independent house,1.7,1.7,3.0,44524906.07
+3599,Downtown,2,apartment,4.2,4.9,3.0,47824166.56
+700,Downtown,2,apartment,11.8,7.6,2.0,8950730.95
+3604,Downtown,2,villa,1.9,9.1,3.0,71762804.1
+2954,Outskirts,2,apartment,1.6,19.6,3.0,7738830.13
+4145,Business District,4,villa,5.7,16.3,3.0,60301944.13
+1304,Suburbs,2,apartment,1.8,14.9,1.0,7080145.86
+3231,Downtown,4,apartment,9.0,11.0,4.0,40721386.64
+3273,Business District,2,independent house,3.8,16.9,2.0,42495406.99
+2070,Business District,5,apartment,13.5,7.1,5.0,17938219.62
+3190,Suburbs,2,apartment,11.9,14.3,3.0,15913918.59
+4340,Outskirts,1,apartment,,19.9,1.0,12571792.76
+1528,Industrial Area,1,independent house,9.4,6.6,1.0,6236649.58
+1002,Industrial Area,3,apartment,13.0,13.6,2.0,3413469.71
+4993,Business District,3,apartment,3.7,17.0,3.0,52587553.88
+1370,Suburbs,4,apartment,13.2,18.4,3.0,7275832.29
+4988,Industrial Area,2,apartment,,14.5,1.0,19144815.69
+706,Business District,1,independent house,11.3,6.0,1.0,7730768.6
+1984,Outskirts,3,villa,8.6,6.9,3.0,7401258.6
+1363,Industrial Area,2,apartment,4.1,0.9,1.0,5012181.16
+3290,Business District,2,villa,6.6,15.3,2.0,47985067.27
+1063,Business District,5,apartment,12.0,1.3,4.0,10043461.92
+4691,Downtown,5,independent house,1.0,17.4,4.0,82220269.61
+2257,Outskirts,4,independent house,11.8,2.8,3.0,6098421.26
+2178,Downtown,3,apartment,4.0,3.9,3.0,30343863.71
+3742,Suburbs,2,independent house,2.6,9.8,2.0,24747716.29
+1559,Downtown,2,villa,2.2,14.9,1.0,28095234.18
+2222,Downtown,3,apartment,0.9,3.2,4.0,35855184.13
+3814,Industrial Area,4,apartment,8.1,9.1,4.0,13914930.82
+3657,Business District,1,apartment,3.7,9.9,2.0,37586861.15
+3125,Outskirts,2,villa,14.8,4.6,2.0,11689261.26
+3229,Downtown,1,independent house,8.8,2.8,1.0,47319318.01
+2097,Outskirts,3,villa,2.5,16.8,4.0,8826649.4
+3560,Downtown,4,independent house,10.5,10.3,3.0,45600514.24
+3193,Suburbs,3,villa,13.5,0.8,3.0,27019436.15
+4127,Downtown,2,independent house,11.3,16.2,,65534342.32
+1863,Industrial Area,5,villa,1.6,19.6,4.0,9076431.62
+2481,Business District,3,apartment,,12.3,2.0,28088065.54
+2163,Suburbs,1,apartment,12.0,10.3,2.0,8928832.44
+2029,Downtown,2,independent house,2.8,17.6,3.0,35791018.74
+2538,Outskirts,2,apartment,1.3,19.1,3.0,5980387.28
+3802,Suburbs,1,independent house,8.6,15.2,2.0,23257136.7
+2737,Suburbs,5,apartment,2.8,9.2,6.0,13367865.54
+1806,Downtown,2,apartment,12.6,12.0,3.0,23860129.03
+4529,Suburbs,4,independent house,5.7,14.2,4.0,27590656.59
+3175,Outskirts,2,apartment,13.7,4.3,2.0,7269675.36
+1782,Suburbs,2,apartment,8.7,9.2,2.0,8965084.02
+1209,Outskirts,2,apartment,,16.7,2.0,2997752.01
+4913,Downtown,2,independent house,2.5,13.3,1.0,81127587.51
+4248,Business District,2,apartment,8.9,8.5,2.0,46930322.08
+1163,Suburbs,4,independent house,11.5,13.4,4.0,6516782.6
+2498,Business District,3,apartment,11.8,2.8,3.0,24491374.79
+3945,Outskirts,3,independent house,4.5,8.3,4.0,10580449.51
+4243,Suburbs,2,independent house,3.5,16.0,2.0,27018699.54
+1995,Industrial Area,1,apartment,0.7,4.8,2.0,7320013.27
+3804,Business District,2,apartment,10.3,4.1,1.0,37737069.39
+4263,Suburbs,3,apartment,1.6,19.0,,20460211.73
+2353,Business District,1,villa,6.6,4.6,2.0,36821159.07
+1791,Suburbs,2,apartment,9.2,5.6,1.0,10486197.86
+4081,Downtown,3,apartment,,19.4,4.0,48875727.73
+3957,Business District,2,apartment,5.0,14.8,2.0,41568662.91
+2136,Industrial Area,2,apartment,4.1,14.1,1.0,7948061.72
+4196,Industrial Area,2,apartment,10.0,17.1,1.0,14430847.58
+3499,Outskirts,4,villa,9.5,2.8,4.0,13099476.83
+3652,Suburbs,3,independent house,5.3,14.3,2.0,23012058.14
+1198,Business District,2,apartment,14.0,10.3,2.0,12781752.27
+2660,Outskirts,1,apartment,12.8,16.7,1.0,5455984.91
+4597,Business District,5,apartment,3.7,10.4,6.0,46688692.68
+1354,Suburbs,3,independent house,4.0,12.6,2.0,7690463.15
+3974,Industrial Area,2,independent house,7.9,9.8,1.0,15174384.79
+2207,Downtown,4,independent house,11.7,9.8,4.0,31057274.32
+3277,Industrial Area,2,independent house,1.1,15.5,1.0,15018419.9
+2233,Outskirts,3,apartment,10.6,12.8,3.0,4706163.05
+4010,Downtown,3,independent house,9.9,12.8,4.0,58034445.96
+702,Outskirts,2,villa,3.9,9.3,2.0,2794818.87
+3755,Suburbs,5,apartment,10.4,10.9,5.0,17992408.99
+4718,Downtown,3,independent house,14.1,15.0,2.0,72665184.99
+4996,Outskirts,3,apartment,1.2,16.6,4.0,12845345.35
+1266,Suburbs,2,villa,5.1,14.1,2.0,10964823.47
+4889,Industrial Area,1,apartment,6.9,18.5,1.0,16162322.13
+2827,Suburbs,2,apartment,13.5,16.5,1.0,13859503.28
+3431,Business District,3,villa,14.5,11.5,3.0,54231391.82
+697,Suburbs,2,apartment,6.9,13.6,1.0,3240909.32
+2430,Suburbs,3,apartment,11.4,18.6,3.0,10177546.94
+4082,Business District,3,apartment,8.2,12.6,3.0,42566615.38
+1108,Outskirts,2,independent house,8.3,16.6,2.0,3242241.06
+3772,Outskirts,3,apartment,4.5,13.9,4.0,10826055.0
+1647,Suburbs,1,apartment,3.6,11.3,2.0,9774391.63
+4782,Business District,5,independent house,4.7,5.2,4.0,60165695.65
+3897,Business District,2,independent house,8.6,8.8,3.0,45176593.49
+3011,Industrial Area,2,apartment,,19.4,1.0,9954732.9
+2294,Outskirts,2,villa,13.7,13.3,3.0,7823729.3
+1159,Downtown,2,independent house,2.8,11.5,3.0,19728971.11
+3311,Outskirts,3,independent house,3.7,18.7,4.0,11085871.69
+1869,Outskirts,3,apartment,8.0,11.9,4.0,4568284.4
+2486,Industrial Area,3,apartment,10.8,10.8,2.0,6868506.67
+646,Downtown,2,apartment,1.9,15.3,2.0,8049158.61
+3719,Industrial Area,2,apartment,5.1,14.4,1.0,11842777.44
+3411,Downtown,1,apartment,14.5,4.3,2.0,47940608.87
+2234,Suburbs,3,apartment,4.3,9.7,2.0,10101180.65
+2343,Downtown,4,villa,5.0,9.7,5.0,49091713.16
+988,Industrial Area,2,apartment,12.6,7.9,3.0,3409271.58
+3476,Outskirts,2,apartment,1.2,10.6,2.0,9905790.84
+2459,Downtown,3,independent house,7.2,8.6,3.0,36510708.04
+2885,Downtown,4,apartment,6.0,4.4,3.0,40865027.97
+3419,Business District,3,apartment,,8.5,3.0,36650025.66
+2302,Outskirts,4,independent house,4.6,1.9,3.0,8373792.5
+4561,Suburbs,2,apartment,1.8,11.7,2.0,23751370.05
+3869,Industrial Area,2,villa,5.1,17.1,2.0,19548014.63
+762,Suburbs,4,villa,1.1,14.6,,6359367.02
+1123,Outskirts,3,apartment,11.8,7.5,4.0,2452629.24
+1516,Downtown,2,independent house,6.3,2.2,3.0,24490955.47
+4143,Downtown,3,apartment,6.9,4.4,2.0,62927164.42
+2549,Outskirts,4,apartment,13.5,11.1,4.0,5268879.02
+4223,Downtown,3,apartment,10.0,4.5,2.0,51170421.12
+3608,Downtown,3,apartment,0.6,11.1,3.0,45685087.0
+4590,Downtown,2,independent house,14.2,5.0,3.0,73038835.41
+2556,Industrial Area,3,apartment,3.9,17.1,4.0,7761838.25
+3670,Industrial Area,3,apartment,2.1,8.2,3.0,13675758.8
+2182,Business District,4,apartment,11.6,5.3,4.0,19483507.2
+2755,Suburbs,4,apartment,7.8,16.3,5.0,11936570.36
+1654,Outskirts,4,apartment,6.8,7.2,5.0,4559439.42
+4999,Outskirts,1,apartment,4.1,2.7,1.0,13239774.43
+3691,Outskirts,3,villa,8.4,11.6,4.0,15494556.38
+2196,Business District,3,apartment,4.5,11.8,3.0,19403795.26
+4491,Industrial Area,3,apartment,13.6,14.4,2.0,14134535.07
+2148,Business District,3,apartment,3.6,5.2,3.0,20779425.31
+1945,Outskirts,4,apartment,13.3,9.2,3.0,4504469.82
+4699,Suburbs,2,independent house,8.6,6.0,2.0,33211785.15
+4423,Downtown,3,apartment,12.5,2.1,4.0,65120123.37
+753,Industrial Area,2,apartment,10.8,17.6,2.0,2083092.75
+3683,Industrial Area,2,apartment,10.6,14.7,1.0,12009252.42
+3057,Business District,3,villa,5.2,6.4,3.0,50800139.4
+598,Industrial Area,3,villa,3.9,12.2,2.0,2820070.38
+2700,Outskirts,2,apartment,3.6,4.4,2.0,6658598.02
+3461,Outskirts,2,villa,12.9,17.9,3.0,13971128.16
+4933,Business District,3,villa,12.4,2.7,4.0,88419558.01
+4277,Outskirts,1,independent house,6.9,0.6,2.0,16344131.93
+3369,Suburbs,2,independent house,,10.3,2.0,22410596.82
+3734,Business District,1,apartment,6.0,11.9,2.0,39484922.58
+4291,Suburbs,2,apartment,9.5,11.8,1.0,19766333.31
+1456,Downtown,2,apartment,7.1,1.6,2.0,17974232.59
+4567,Suburbs,2,apartment,11.8,6.6,2.0,19966767.24
+660,Downtown,2,independent house,15.0,10.2,1.0,10055129.74
+4993,Downtown,4,apartment,3.3,4.7,5.0,74788923.41
+1800,Suburbs,3,apartment,7.2,17.5,3.0,9818183.74
+4487,Business District,3,villa,6.7,2.2,3.0,82711004.83
+2027,Outskirts,2,apartment,4.9,10.0,3.0,5764763.78
+1718,Outskirts,2,apartment,3.4,14.0,3.0,5132522.16
+4996,Downtown,3,apartment,1.5,5.6,2.0,64273837.75
+3604,Downtown,1,apartment,13.4,12.7,2.0,46664258.32
+3235,Business District,2,villa,6.6,16.7,2.0,49823461.26
+1454,Industrial Area,3,apartment,7.7,4.2,3.0,4756889.47
+3946,Suburbs,3,apartment,13.8,18.4,2.0,21679101.7
+1545,Downtown,1,apartment,11.8,11.3,1.0,20753109.26
+2193,Outskirts,2,apartment,2.4,6.3,1.0,5337216.66
+3936,Business District,3,villa,8.7,8.9,4.0,50080066.61
+1062,Suburbs,2,apartment,6.9,6.6,1.0,5823191.32
+2985,Business District,3,apartment,12.1,14.6,4.0,29551190.19
+3854,Suburbs,3,independent house,11.0,16.0,,25101446.54
+725,Suburbs,5,villa,10.5,16.7,6.0,4803452.28
+1459,Downtown,2,apartment,5.4,19.7,3.0,16206229.01
+3567,Business District,4,apartment,12.2,15.9,5.0,31769628.76
+1315,Business District,3,villa,1.3,12.2,4.0,17965213.89
+3620,Outskirts,2,villa,2.8,7.1,3.0,12633739.0
+516,Outskirts,2,apartment,5.4,11.1,,1472598.33
+1743,Downtown,3,independent house,1.6,1.3,4.0,29111697.11
+2705,Downtown,2,apartment,3.9,15.0,2.0,34000306.73
+3024,Industrial Area,2,apartment,12.5,9.2,3.0,8361399.78
+1569,Outskirts,1,apartment,14.2,0.9,2.0,3905211.84
+3944,Suburbs,4,apartment,4.9,1.7,4.0,24122708.2
+3065,Business District,3,independent house,,8.1,3.0,39683052.46
+1560,Downtown,3,apartment,4.6,11.9,2.0,21505035.01
+2827,Business District,2,apartment,4.5,9.6,3.0,28679247.18
+3920,Business District,2,independent house,1.0,12.6,1.0,47371031.89
+801,Industrial Area,3,apartment,13.9,9.9,2.0,2553169.13
+4776,Outskirts,2,apartment,3.6,13.4,3.0,11722310.22
+1106,Downtown,2,apartment,6.6,4.8,1.0,16193474.41
+3670,Business District,3,apartment,0.6,2.7,4.0,40001758.58
+1199,Downtown,5,apartment,12.9,12.1,4.0,15077603.78
+1639,Suburbs,3,villa,11.1,10.0,4.0,10515629.94
+690,Industrial Area,3,apartment,14.2,1.0,4.0,2594105.66
+2800,Suburbs,5,apartment,11.8,7.9,6.0,15502968.08
+1480,Downtown,2,villa,5.0,2.6,2.0,31771505.04
+3475,Downtown,3,villa,4.1,10.9,2.0,68369083.69
+1684,Outskirts,5,apartment,10.6,8.2,5.0,4704212.35
+3827,Business District,2,apartment,5.8,12.5,1.0,40145859.31
+3894,Business District,3,apartment,8.7,16.2,2.0,35249470.1
+627,Suburbs,3,apartment,0.6,6.3,2.0,3284281.73
+2565,Industrial Area,3,apartment,,19.3,3.0,9258143.77
+2316,Business District,3,apartment,8.3,10.9,2.0,24309815.51
+1069,Outskirts,4,independent house,8.7,12.6,4.0,2944305.9
+2395,Suburbs,3,apartment,11.4,13.8,4.0,10962622.31
+3233,Suburbs,1,villa,2.4,13.5,1.0,29243929.68
+4363,Outskirts,4,apartment,7.9,10.5,3.0,9462835.39
+4514,Industrial Area,2,villa,3.3,8.9,3.0,23099496.73
+3401,Outskirts,2,villa,1.9,1.5,3.0,12843494.99
+2186,Industrial Area,2,independent house,6.5,0.9,1.0,10652244.07
+3509,Outskirts,2,apartment,2.9,7.5,3.0,8278670.31
+654,Outskirts,2,apartment,3.7,7.0,2.0,1843527.71
+3037,Downtown,4,apartment,5.1,8.1,4.0,34280514.86
+1909,Suburbs,3,villa,4.3,3.2,2.0,16716550.72
+4557,Outskirts,3,apartment,1.8,14.9,3.0,13298705.53
+1284,Outskirts,1,apartment,1.8,17.2,2.0,3294338.93
+3675,Business District,4,apartment,3.3,18.8,3.0,38488499.95
+4841,Suburbs,4,apartment,1.2,10.1,5.0,25030992.3
+3306,Business District,3,apartment,9.6,14.2,2.0,29987187.6
+1037,Suburbs,1,apartment,,17.2,2.0,5769860.74
+2341,Business District,1,independent house,4.6,8.7,2.0,27227818.26
+2955,Outskirts,2,villa,5.3,6.5,1.0,12512825.56
+1024,Outskirts,2,independent house,10.1,18.8,1.0,2689181.98
+3450,Downtown,2,apartment,13.1,10.6,2.0,38293184.15
+4631,Business District,4,independent house,11.5,10.2,4.0,50731724.08
+4615,Industrial Area,2,independent house,11.0,4.0,1.0,19560267.95
+2868,Downtown,1,villa,7.5,2.6,2.0,57219247.85
+4347,Business District,2,villa,10.6,16.9,2.0,67200384.19
+4995,Business District,1,apartment,8.5,12.5,2.0,44653334.26
+3201,Downtown,1,independent house,3.6,6.9,2.0,43997998.41
+1471,Outskirts,2,apartment,3.5,4.2,,4411141.09
+1666,Business District,2,apartment,4.8,11.3,2.0,18676797.69
+3274,Outskirts,3,apartment,13.7,11.9,,6819171.4
+2482,Downtown,5,independent house,8.4,4.5,4.0,40207512.54
+1353,Outskirts,2,independent house,11.1,17.1,2.0,3754264.7
+4646,Suburbs,2,independent house,5.5,2.1,1.0,33634107.0
+4236,Industrial Area,4,villa,6.4,7.4,5.0,24369460.71
+4269,Business District,2,apartment,2.3,13.8,2.0,49657815.24
+1074,Industrial Area,2,apartment,3.0,5.8,1.0,4243773.88
+3761,Outskirts,4,apartment,12.5,16.6,4.0,8401011.91
+1648,Business District,1,apartment,9.0,14.9,2.0,17517366.89
+2215,Outskirts,3,apartment,5.4,15.9,3.0,5678131.48
+4354,Suburbs,3,apartment,12.1,2.8,3.0,19723649.53
+2991,Downtown,2,apartment,4.1,3.2,2.0,41052582.9
+3160,Business District,2,independent house,14.7,6.1,2.0,43242048.39
+3624,Suburbs,3,apartment,5.5,10.6,3.0,20511601.07
+3551,Suburbs,1,independent house,5.4,15.1,1.0,19048961.87
+504,Business District,2,villa,5.0,16.8,3.0,8275952.91
+1376,Outskirts,3,apartment,2.3,14.2,3.0,3952370.54
+1491,Suburbs,3,apartment,2.1,18.6,3.0,7324224.97
+4642,Industrial Area,2,apartment,9.9,14.9,3.0,14746288.55
+4864,Suburbs,4,apartment,13.2,6.5,5.0,25911086.76
+4965,Outskirts,2,villa,12.0,5.7,3.0,18490286.42
+1135,Outskirts,4,apartment,2.5,14.1,4.0,2633288.05
+2193,Industrial Area,3,apartment,8.4,4.3,2.0,8130947.61
+2182,Suburbs,3,apartment,2.0,2.3,2.0,14076275.78
+619,Outskirts,2,independent house,1.2,10.9,1.0,2069341.11
+1330,Business District,5,villa,10.0,16.5,4.0,20725149.58
+4175,Downtown,2,villa,8.3,2.5,2.0,80231813.45
+1869,Downtown,3,apartment,1.7,15.9,2.0,22402185.8
+1240,Downtown,2,villa,1.0,16.3,3.0,25894563.84
+616,Suburbs,2,villa,14.9,9.9,3.0,4211296.8
+3338,Industrial Area,2,villa,0.9,1.6,1.0,21636679.09
+1650,Outskirts,4,independent house,6.9,3.9,5.0,4698630.68
+2431,Business District,5,apartment,7.8,14.3,5.0,23500734.15
+1512,Business District,2,independent house,2.2,14.4,1.0,18524255.78
+2164,Suburbs,1,independent house,3.0,18.0,1.0,15336680.89
+1581,Downtown,3,apartment,5.6,11.9,3.0,17932660.04
+1012,Suburbs,2,apartment,11.5,2.9,3.0,4511028.31
+3349,Industrial Area,1,independent house,7.9,2.9,2.0,13212393.4
+1059,Industrial Area,3,apartment,9.7,14.6,3.0,3728335.29
+4172,Outskirts,3,apartment,14.8,4.1,4.0,9813698.38
+3843,Outskirts,5,independent house,11.6,6.9,5.0,10603003.19
+4570,Industrial Area,2,apartment,6.8,10.0,3.0,13520303.72
+1970,Industrial Area,2,apartment,7.0,1.0,3.0,7718147.89
+1080,Industrial Area,3,apartment,9.5,5.4,3.0,3201163.94
+2794,Suburbs,3,apartment,10.1,8.5,4.0,12970816.93
+3647,Industrial Area,3,apartment,7.8,6.0,3.0,11754341.84
+4749,Business District,3,apartment,9.9,3.2,4.0,50342067.51
+2179,Downtown,2,villa,0.8,14.7,1.0,46755535.87
+4006,Industrial Area,4,apartment,6.7,16.4,5.0,13479642.32
+3244,Downtown,2,villa,4.5,5.5,3.0,74185358.55
+3856,Suburbs,2,villa,2.4,15.6,2.0,34517956.21
+4545,Downtown,3,apartment,1.9,8.0,4.0,58872799.29
+1743,Suburbs,2,villa,9.2,10.4,1.0,13730983.63
+3618,Business District,1,apartment,8.1,17.2,2.0,38105072.67
+2641,Suburbs,4,apartment,4.2,15.1,3.0,15198676.42
+3559,Suburbs,2,apartment,7.3,16.2,3.0,17383967.19
+3459,Outskirts,3,independent house,,3.2,4.0,11535807.67
+2765,Industrial Area,2,apartment,3.3,1.9,,10219951.14
+2979,Industrial Area,3,apartment,10.0,17.9,3.0,10534821.93
+2135,Business District,2,villa,11.8,8.1,,28921951.42
+2257,Business District,2,apartment,12.0,6.1,1.0,20949061.65
+4952,Industrial Area,5,apartment,9.2,14.6,6.0,15393182.6
+2570,Outskirts,3,apartment,7.9,16.8,4.0,5817838.32
+3349,Industrial Area,2,villa,1.4,17.3,1.0,18129120.61
+3751,Outskirts,2,villa,4.7,6.7,,13315350.88
+4230,Business District,4,apartment,1.9,17.1,3.0,42307202.05
+2989,Downtown,3,apartment,14.5,1.3,2.0,44701285.63
+2131,Business District,3,apartment,2.5,1.5,3.0,23880589.63
+3316,Business District,3,villa,2.7,12.7,2.0,55988084.75
+1515,Suburbs,1,apartment,13.4,1.7,1.0,7095709.76
+1848,Suburbs,2,apartment,14.2,6.8,3.0,8526584.42
+3587,Suburbs,3,apartment,11.6,13.6,3.0,18805126.19
+3339,Suburbs,2,apartment,0.6,7.1,3.0,19950312.85
+835,Outskirts,2,apartment,0.5,4.0,3.0,2310571.1
+1395,Industrial Area,4,apartment,6.0,6.0,4.0,5579781.16
+4046,Downtown,3,apartment,2.6,9.4,3.0,59986588.1
+1351,Business District,3,villa,0.8,9.8,2.0,24755457.98
+2187,Outskirts,3,apartment,7.2,15.8,4.0,5315026.79
+2431,Downtown,3,independent house,14.2,15.1,3.0,31829291.78
+4246,Outskirts,1,apartment,5.2,9.4,1.0,11291599.38
+2927,Outskirts,2,villa,10.1,17.0,3.0,11121297.52
+2068,Business District,2,villa,10.0,2.7,2.0,28844996.84
+4500,Industrial Area,2,apartment,4.1,5.5,1.0,17670495.58
+3238,Suburbs,3,apartment,9.9,16.6,4.0,13311868.81
+3998,Industrial Area,2,villa,3.6,7.9,2.0,21119380.31
+4413,Business District,2,apartment,2.3,19.6,1.0,44088008.25
+1566,Business District,2,independent house,10.7,9.6,3.0,19437567.55
+4880,Business District,1,apartment,2.1,15.9,2.0,48582840.22
+2944,Downtown,2,independent house,15.0,8.3,3.0,47539145.63
+4607,Industrial Area,2,apartment,3.2,8.8,2.0,16678587.96
+3873,Industrial Area,2,villa,9.1,8.0,2.0,20962797.14
+4469,Outskirts,1,villa,6.5,14.5,1.0,19257409.17
+3046,Outskirts,2,villa,2.3,11.2,3.0,12667139.84
+1253,Outskirts,3,apartment,0.9,18.9,3.0,3836537.72
+2582,Business District,2,villa,9.5,5.4,1.0,33960566.93
+3274,Industrial Area,2,apartment,12.2,2.5,3.0,10902573.84
+3396,Business District,3,villa,12.7,8.2,3.0,44120184.86
+4685,Downtown,2,apartment,7.5,12.5,2.0,53842629.82
+1275,Outskirts,4,independent house,11.8,17.3,3.0,4045318.91
+2125,Business District,3,apartment,,7.3,2.0,19225833.4
+3569,Business District,2,independent house,11.0,13.2,1.0,41363825.69
+917,Downtown,3,independent house,7.6,7.3,4.0,14329485.15
+614,Suburbs,2,independent house,9.7,12.5,2.0,3615026.58
+1116,Industrial Area,3,apartment,12.2,17.8,3.0,3544734.27
+4474,Suburbs,2,apartment,6.3,5.0,2.0,25886459.73
+3767,Outskirts,4,independent house,12.2,8.4,3.0,9849382.23
+1325,Business District,2,apartment,9.1,19.9,2.0,12132129.96
+2016,Downtown,3,apartment,2.9,17.4,4.0,27253473.95
+3646,Downtown,3,villa,0.9,11.5,2.0,77280358.06
+912,Industrial Area,1,villa,5.8,10.6,1.0,4474935.36
+1228,Suburbs,2,apartment,8.4,6.0,,7017248.87
+3848,Industrial Area,3,villa,12.7,10.6,2.0,18002138.77
+3308,Business District,4,independent house,2.3,17.0,5.0,40557581.08
+1175,Industrial Area,2,apartment,12.1,13.9,2.0,3236841.79
+3965,Downtown,3,independent house,13.0,6.2,4.0,60725659.23
+3004,Downtown,5,apartment,2.7,4.4,5.0,44481400.3
+3467,Outskirts,4,apartment,12.8,5.7,5.0,7753856.17
+3286,Outskirts,2,apartment,14.9,3.8,1.0,8001589.88
+1622,Business District,3,apartment,11.0,2.4,2.0,18489132.47
+4579,Suburbs,2,independent house,11.9,8.7,3.0,25725480.47
+2071,Industrial Area,5,apartment,14.9,2.7,6.0,6671317.97
+2643,Business District,2,apartment,9.3,3.9,2.0,28951666.83
+2187,Outskirts,2,apartment,5.0,11.2,3.0,5069510.76
+4632,Industrial Area,3,apartment,12.6,3.7,4.0,17887571.17
+4351,Outskirts,2,apartment,9.4,1.7,2.0,10231112.29
+3940,Industrial Area,5,apartment,8.9,6.7,5.0,14125662.94
+4266,Suburbs,5,apartment,4.2,4.8,5.0,23289206.46
+2826,Business District,3,independent house,11.5,10.5,4.0,36168494.78
+3414,Industrial Area,2,apartment,1.7,2.5,2.0,11615363.01
+4452,Downtown,3,apartment,13.9,15.2,2.0,56275157.44
+1095,Downtown,1,apartment,5.2,18.2,1.0,14229481.75
+1228,Industrial Area,1,villa,2.4,15.0,1.0,6415816.34
+1865,Industrial Area,4,apartment,6.9,10.9,5.0,6183279.42
+4992,Industrial Area,2,apartment,1.1,17.3,1.0,18933682.67
+1198,Downtown,2,apartment,10.4,14.1,3.0,16263892.21
+895,Downtown,5,independent house,13.6,0.7,,12622125.71
+4671,Industrial Area,2,apartment,12.6,8.2,1.0,13080405.88
+4860,Outskirts,2,villa,2.3,17.1,2.0,20939014.46
+3002,Outskirts,4,apartment,2.3,7.2,5.0,7192353.61
+2319,Suburbs,2,apartment,12.3,1.2,1.0,14159665.95
+1217,Business District,3,villa,13.9,15.1,4.0,18152266.26
+3282,Outskirts,5,apartment,7.2,16.1,5.0,8521468.94
+4077,Downtown,4,independent house,7.7,3.6,4.0,59213334.78
+643,Outskirts,3,independent house,5.1,11.0,2.0,1812158.65
+3640,Suburbs,2,independent house,13.5,4.2,3.0,23561431.46
+4991,Suburbs,2,apartment,9.9,14.5,3.0,26935150.08
+3438,Business District,4,villa,4.7,5.8,5.0,63401511.02
+4136,Outskirts,4,apartment,4.8,6.7,,9986296.1
+3722,Downtown,3,independent house,13.4,17.0,2.0,47713794.78
+1667,Downtown,2,villa,0.7,9.8,2.0,29101835.37
+3116,Industrial Area,2,independent house,5.2,13.6,1.0,14084740.21
+1562,Downtown,1,apartment,8.5,8.3,1.0,18293226.15
+2656,Business District,3,apartment,2.6,6.3,4.0,24695867.13
+3482,Business District,2,apartment,1.8,12.7,2.0,33800007.94
+3794,Downtown,4,villa,12.3,3.5,5.0,70306141.1
+1656,Downtown,3,apartment,13.5,7.8,2.0,23426037.38
+1232,Industrial Area,2,apartment,12.4,4.6,1.0,4238234.52
+4830,Downtown,3,villa,13.5,14.1,3.0,79238349.18
+1453,Industrial Area,2,apartment,8.5,18.9,1.0,4502051.25
+3039,Industrial Area,3,apartment,12.3,19.9,2.0,9229732.86
+3824,Downtown,3,apartment,,9.3,2.0,42074792.63
+3801,Suburbs,4,apartment,10.2,5.4,3.0,17182256.13
+2042,Suburbs,4,apartment,14.8,9.1,5.0,10492296.46
+1691,Industrial Area,2,apartment,3.8,17.0,1.0,5166322.27
+3493,Downtown,1,apartment,6.2,4.5,2.0,43009154.23
+3181,Suburbs,3,apartment,7.5,19.1,3.0,15040865.09
+1717,Downtown,2,villa,2.5,7.2,1.0,37582483.97
+2040,Downtown,2,apartment,1.7,19.7,2.0,27687737.28
+3736,Downtown,1,apartment,12.5,16.9,1.0,47373974.2
+2886,Outskirts,3,independent house,14.7,16.3,3.0,8478775.5
+4219,Downtown,2,apartment,6.4,6.7,2.0,58023646.18
+1888,Outskirts,3,apartment,1.8,0.7,2.0,4698748.65
+2356,Industrial Area,5,villa,1.5,8.0,4.0,14446834.33
+1865,Suburbs,1,independent house,13.4,6.4,,9915487.56
+999,Suburbs,1,villa,7.2,1.2,1.0,8004123.13
+2180,Suburbs,2,villa,5.1,10.4,1.0,18011816.74
+1010,Suburbs,4,independent house,7.4,8.4,5.0,6004048.84
+4812,Suburbs,2,apartment,5.1,12.9,1.0,27798273.36
+1824,Suburbs,2,independent house,7.6,12.6,1.0,10716207.05
+1655,Suburbs,1,apartment,13.0,2.9,1.0,9621888.65
+2327,Industrial Area,3,independent house,9.1,19.6,2.0,9878818.5
+3641,Downtown,2,apartment,10.6,4.1,1.0,53683823.55
+3986,Business District,3,apartment,5.8,9.2,4.0,45859871.53
+2310,Outskirts,4,apartment,,10.0,5.0,6594044.53
+3423,Business District,2,villa,10.2,16.4,2.0,52716016.76
+2714,Business District,4,apartment,2.2,2.4,,29830166.84
+4686,Downtown,1,independent house,8.8,8.9,2.0,61215760.55
+1213,Downtown,4,independent house,4.2,12.8,4.0,19793770.7
+4102,Downtown,3,apartment,12.2,4.7,4.0,60021750.76
+4634,Suburbs,4,independent house,6.7,12.7,3.0,29682275.27
+4022,Industrial Area,1,villa,14.9,18.5,1.0,21788663.31
+4768,Suburbs,2,villa,1.8,20.0,3.0,41303616.49
+1743,Industrial Area,2,apartment,11.8,1.1,2.0,5571692.51
+4209,Industrial Area,2,apartment,10.3,5.1,3.0,13218317.37
+1581,Business District,2,apartment,11.6,6.6,1.0,15072016.52
+955,Business District,2,apartment,5.0,8.3,,8946988.65
+1394,Industrial Area,2,independent house,7.6,5.2,1.0,5977650.36
+1884,Industrial Area,2,apartment,12.0,4.5,2.0,7362318.26
+2458,Suburbs,4,independent house,3.9,19.1,3.0,16432837.77
+3572,Suburbs,2,apartment,3.8,18.4,2.0,18049769.21
+2496,Business District,1,apartment,8.5,1.4,2.0,22975207.59
+4785,Downtown,2,villa,8.1,7.1,2.0,86183553.18
+1004,Industrial Area,1,independent house,4.6,8.4,2.0,4226362.13
+1714,Suburbs,5,apartment,4.8,5.2,4.0,8767600.92
+2031,Business District,2,apartment,4.5,12.8,,18406476.72
+3940,Suburbs,3,apartment,11.7,13.0,3.0,18587271.26
+1323,Industrial Area,5,apartment,10.0,17.1,6.0,3920211.34
+1428,Industrial Area,4,apartment,12.6,14.9,3.0,5130608.48
+633,Outskirts,3,apartment,14.6,11.1,3.0,1337695.64
+2605,Downtown,4,apartment,7.4,13.2,4.0,27910491.84
+4127,Outskirts,5,villa,1.5,5.8,6.0,14660859.7
+2352,Business District,3,apartment,1.2,12.1,,23770189.69
+4675,Suburbs,3,apartment,4.8,10.0,3.0,25048506.27
+3433,Business District,3,apartment,14.0,3.1,4.0,38273920.98
+3784,Industrial Area,3,villa,8.1,5.2,3.0,19408363.73
+4798,Outskirts,3,independent house,4.4,6.2,2.0,16295797.65
+3311,Outskirts,2,apartment,6.3,18.5,3.0,7964521.91
+1750,Outskirts,2,villa,9.2,5.0,2.0,7096897.4
+4012,Business District,2,apartment,10.0,6.1,3.0,34825829.45
+1756,Industrial Area,1,apartment,2.7,7.7,2.0,6087240.04
+3876,Suburbs,2,apartment,14.7,13.4,1.0,20228160.02
+3986,Suburbs,1,apartment,8.4,2.8,1.0,23167926.81
+4084,Business District,3,villa,2.5,19.1,2.0,68494001.37
+1896,Outskirts,2,independent house,13.5,17.4,2.0,4975980.27
+4137,Downtown,4,apartment,1.6,11.8,3.0,50696378.18
+3830,Business District,1,villa,13.7,13.6,2.0,63360085.65
+3203,Business District,2,apartment,15.0,0.8,2.0,30205466.96
+970,Industrial Area,3,apartment,10.7,7.1,2.0,2908373.56
+1853,Suburbs,3,apartment,11.7,16.0,3.0,7907191.66
+3283,Business District,1,apartment,5.4,2.0,1.0,34594515.94
+3331,Business District,4,apartment,14.2,6.0,4.0,30657097.42
+857,Outskirts,4,apartment,8.2,11.9,3.0,2101619.28
+3519,Outskirts,2,apartment,11.1,5.5,3.0,8856491.63
+1167,Downtown,2,apartment,13.9,18.7,3.0,15690805.41
+4968,Industrial Area,5,villa,14.6,3.1,5.0,22287641.44
+1645,Downtown,3,apartment,12.6,16.0,3.0,18673326.85
+4685,Outskirts,3,independent house,,10.4,2.0,14751809.16
+4219,Suburbs,4,apartment,14.5,15.1,5.0,20887908.43
+3245,Outskirts,2,villa,9.6,6.6,1.0,12163937.03
+1039,Industrial Area,2,independent house,14.0,10.5,2.0,4367588.92
+3279,Outskirts,2,villa,10.3,17.2,3.0,10255859.28
+4636,Industrial Area,3,apartment,5.0,9.6,2.0,17335449.79
+4275,Industrial Area,3,villa,5.9,7.5,2.0,22177942.94
+3008,Industrial Area,3,apartment,8.5,11.0,2.0,8728668.42
+3279,Industrial Area,2,apartment,12.0,14.5,1.0,11706927.91
+1424,Industrial Area,2,apartment,5.1,9.1,1.0,5105959.83
+3456,Suburbs,2,apartment,8.9,18.8,3.0,15119460.84
+2081,Downtown,3,apartment,5.5,6.3,2.0,23679815.02
+3824,Business District,3,independent house,12.3,9.8,4.0,39407750.68
+4985,Downtown,1,villa,7.3,15.3,1.0,95785964.5
+755,Industrial Area,4,apartment,1.6,13.9,4.0,2412827.07
+2338,Suburbs,1,independent house,2.9,17.3,2.0,13455801.66
+2444,Outskirts,5,apartment,,19.9,4.0,5344372.74
+509,Suburbs,1,independent house,7.7,8.8,2.0,3264765.58
+3371,Industrial Area,3,apartment,2.0,2.7,3.0,14046730.22
+1297,Suburbs,1,apartment,2.2,1.1,1.0,8195346.04
+1515,Suburbs,4,villa,14.1,14.7,3.0,9689254.02
+2324,Industrial Area,2,villa,13.2,17.5,3.0,12504871.42
+4969,Suburbs,2,villa,7.1,4.8,1.0,41435495.47
+3636,Business District,2,independent house,14.8,3.6,2.0,50632636.71
+2693,Business District,2,villa,0.5,1.7,3.0,46656074.34
+723,Suburbs,2,villa,9.4,16.5,2.0,5145447.24
+4658,Outskirts,4,independent house,9.4,6.6,4.0,15288168.67
+4425,Industrial Area,2,villa,7.1,8.3,1.0,19720782.34
+4500,Business District,3,apartment,6.3,10.3,4.0,45481039.41
+2133,Outskirts,3,independent house,7.1,16.9,3.0,7008124.08
+2652,Suburbs,3,apartment,6.5,13.2,2.0,14602653.03
+1010,Outskirts,2,villa,11.1,12.5,1.0,4133549.72
+884,Downtown,2,independent house,2.5,3.9,1.0,15779531.71
+904,Business District,3,villa,3.4,10.5,3.0,12856162.39
+2500,Suburbs,5,villa,3.1,14.4,4.0,16738584.26
+3256,Industrial Area,2,villa,4.3,19.5,3.0,16638963.62
+2168,Suburbs,2,apartment,8.1,4.4,3.0,11428793.22
+1960,Industrial Area,2,independent house,,0.7,2.0,8180446.84
+4136,Suburbs,5,apartment,13.1,2.0,6.0,19379313.85
+3224,Outskirts,2,apartment,4.8,7.8,1.0,8671951.77
+4678,Outskirts,2,apartment,2.9,16.5,2.0,13192661.81
+2548,Outskirts,4,apartment,10.3,0.6,3.0,7844761.49
+4646,Downtown,1,apartment,1.1,9.4,2.0,67205847.87
+1216,Industrial Area,1,independent house,9.5,6.9,2.0,5309404.32
+2323,Outskirts,3,apartment,10.6,1.5,3.0,6383049.01
+2581,Downtown,4,apartment,3.6,9.3,3.0,38636470.14
+3919,Industrial Area,2,apartment,1.1,5.5,3.0,15256130.55
+2074,Suburbs,2,apartment,5.8,7.4,3.0,11968763.09
+749,Downtown,2,villa,1.9,14.3,2.0,16832628.91
+1173,Business District,2,apartment,2.2,10.7,1.0,13952479.29
+2665,Downtown,3,apartment,4.2,2.9,2.0,35815619.49
+1270,Downtown,2,apartment,4.8,19.2,2.0,14179029.72
+4462,Industrial Area,2,apartment,8.2,12.9,3.0,13162503.89
+4863,Suburbs,2,apartment,10.3,15.4,1.0,20255764.23
+2484,Business District,3,apartment,9.1,2.0,4.0,23362299.08
+1577,Outskirts,3,villa,2.7,1.4,4.0,6161707.6
+735,Outskirts,4,independent house,3.0,0.9,4.0,2421586.1
+888,Downtown,1,apartment,13.2,4.2,2.0,11577838.64
+3537,Industrial Area,4,independent house,8.6,8.6,4.0,14950165.97
+2348,Industrial Area,4,apartment,13.1,18.7,5.0,6862007.09
+3314,Outskirts,2,apartment,5.9,9.4,1.0,8856710.83
+3874,Business District,2,independent house,9.4,6.2,1.0,49968188.24
+3778,Suburbs,2,apartment,8.1,11.5,2.0,18891590.72
+1752,Business District,2,independent house,5.1,2.7,3.0,26077514.56
+4481,Suburbs,2,apartment,7.3,12.4,1.0,19639895.35
+2622,Outskirts,1,apartment,7.8,11.6,2.0,5839546.54
+2650,Suburbs,2,apartment,3.4,15.9,1.0,13474727.23
+1829,Industrial Area,4,villa,5.1,19.7,4.0,8273559.05
+1858,Downtown,2,villa,12.0,5.4,,36070439.31
+2982,Downtown,4,villa,13.8,10.4,3.0,52039963.03
+2517,Outskirts,3,apartment,5.7,18.2,3.0,5954146.81
+1831,Industrial Area,4,apartment,5.0,15.8,3.0,5609066.37
+4844,Business District,3,apartment,3.3,10.0,2.0,47907439.54
+4761,Industrial Area,1,apartment,10.3,18.9,1.0,15728634.69
+1858,Downtown,3,independent house,5.2,1.6,3.0,31878471.14
+3677,Downtown,1,apartment,14.8,18.7,1.0,39671323.62
+2628,Industrial Area,2,independent house,5.2,1.5,2.0,10444913.11
+2680,Industrial Area,4,independent house,6.2,11.2,5.0,9249300.11
+637,Downtown,2,apartment,9.2,17.9,1.0,6591153.32
+3972,Business District,2,villa,,5.6,3.0,71200375.4
+3332,Outskirts,3,apartment,7.3,9.7,2.0,7164404.34
+4079,Outskirts,4,apartment,6.6,6.8,3.0,11332333.82
+3531,Industrial Area,3,apartment,14.9,19.1,3.0,12560140.2
+4664,Outskirts,2,apartment,0.7,16.6,1.0,10988193.21
+3093,Downtown,3,apartment,13.5,14.3,3.0,36406729.09
+4800,Downtown,2,apartment,2.7,12.0,3.0,71573554.89
+4318,Industrial Area,3,apartment,11.9,16.5,4.0,15202698.31
+4638,Industrial Area,5,apartment,9.5,8.1,4.0,15239630.13
+4323,Industrial Area,3,villa,5.5,9.2,3.0,23867938.74
+4542,Business District,4,villa,13.2,14.7,3.0,71946149.06
+2406,Outskirts,1,apartment,0.7,7.5,2.0,6324026.34
+1260,Industrial Area,3,apartment,3.8,1.7,3.0,5323123.77
+3945,Suburbs,4,villa,8.7,1.9,4.0,31460303.93
+1399,Suburbs,1,apartment,5.6,2.7,1.0,7761510.47
+4955,Downtown,4,villa,9.4,17.5,4.0,103329882.34
+3447,Outskirts,2,apartment,0.8,9.7,3.0,10208395.77
+2219,Industrial Area,3,apartment,2.2,14.4,3.0,7469954.79
+780,Suburbs,4,apartment,2.3,8.2,5.0,3573310.07
+3766,Outskirts,3,apartment,3.2,5.5,,10705522.47
+2387,Downtown,1,villa,7.2,7.3,1.0,48729018.51
+3766,Business District,3,apartment,11.4,16.0,2.0,37789218.04
+1166,Outskirts,3,villa,13.6,12.7,3.0,4786769.7
+4688,Outskirts,4,independent house,12.6,18.8,3.0,14971629.46
+1171,Business District,2,apartment,3.4,13.8,2.0,11982231.37
+2469,Outskirts,2,villa,6.9,11.6,2.0,8022007.34
+4656,Downtown,3,apartment,3.4,12.4,2.0,60047039.97
+3622,Downtown,2,apartment,4.3,18.9,3.0,49204216.46
+4400,Business District,3,villa,7.8,15.9,3.0,67206050.11
+1023,Industrial Area,3,apartment,1.5,1.0,4.0,4035346.64
+2893,Suburbs,4,apartment,3.7,10.9,3.0,14839826.83
+3617,Industrial Area,3,apartment,14.1,13.9,4.0,10858275.23
+3093,Outskirts,3,apartment,7.3,15.1,3.0,7161158.55
+2468,Suburbs,2,independent house,7.0,4.7,2.0,15691646.41
+2253,Business District,2,independent house,0.7,17.4,2.0,26021898.55
+2796,Business District,2,villa,,19.1,1.0,40734214.08
+2761,Suburbs,2,villa,13.1,5.1,2.0,19982758.74
+2786,Downtown,3,apartment,2.9,17.7,2.0,37350556.41
+4702,Suburbs,3,apartment,6.5,2.4,4.0,22360105.38
+3378,Outskirts,3,apartment,0.7,1.6,3.0,10880124.77
+4643,Downtown,4,apartment,7.4,3.0,4.0,63569679.21
+4144,Business District,5,apartment,0.8,1.6,5.0,51021825.7
+4932,Suburbs,4,independent house,12.4,17.0,5.0,30139186.98
+2555,Industrial Area,3,apartment,,1.7,,8938784.11
+1776,Industrial Area,3,apartment,11.9,5.8,2.0,5928400.65
+3266,Outskirts,2,apartment,4.6,2.5,3.0,10348214.02
+802,Industrial Area,1,villa,12.6,6.3,1.0,4349902.13
+1138,Suburbs,2,villa,8.4,2.3,3.0,10434491.09
+555,Suburbs,4,apartment,5.9,13.5,5.0,3007422.8
+1025,Industrial Area,4,apartment,9.6,3.1,5.0,3230962.67
+4623,Suburbs,2,independent house,0.7,17.1,1.0,25840914.85
+2625,Outskirts,2,apartment,2.6,16.4,3.0,7043107.28
+3787,Downtown,4,apartment,11.3,0.8,4.0,48508677.11
+864,Outskirts,1,villa,4.0,18.0,1.0,3118440.93
+2146,Outskirts,2,independent house,9.2,1.1,3.0,7568542.25
+1418,Suburbs,4,apartment,6.1,5.2,5.0,7245471.58
+3297,Downtown,2,villa,12.9,1.1,3.0,62327703.17
+2031,Suburbs,1,independent house,14.3,7.0,1.0,13411622.7
+3845,Business District,3,apartment,13.3,10.5,2.0,40746647.45
+2406,Suburbs,4,independent house,4.4,16.0,3.0,14189692.15
+3586,Suburbs,3,villa,3.3,7.1,4.0,31802013.75
+2575,Suburbs,2,villa,7.4,14.3,1.0,21156988.44
+1213,Downtown,2,villa,0.6,4.2,2.0,25389518.45
+1562,Suburbs,2,apartment,0.9,15.1,3.0,7264408.4
+2476,Downtown,3,apartment,8.5,5.1,3.0,27290870.88
+1796,Industrial Area,3,apartment,8.0,3.3,3.0,6416735.33
+625,Business District,1,apartment,14.9,4.1,2.0,6141136.91
+4096,Downtown,4,apartment,3.4,4.1,5.0,65307899.94
+3783,Industrial Area,1,independent house,4.2,10.5,2.0,16853148.63
+2103,Downtown,2,independent house,2.1,17.0,2.0,35881743.68
+566,Downtown,1,villa,13.8,2.1,2.0,12722870.14
+732,Business District,2,independent house,11.8,14.3,2.0,9413502.08
+2656,Outskirts,3,villa,12.4,13.3,4.0,9040074.42
+1669,Outskirts,3,apartment,13.6,17.5,4.0,3604223.52
+2658,Downtown,2,apartment,8.1,5.3,2.0,37074427.65
+4706,Suburbs,3,apartment,7.0,9.3,4.0,22770486.65
+1993,Industrial Area,1,villa,5.3,18.6,1.0,10046910.36
+4507,Suburbs,3,apartment,9.0,13.4,3.0,22760890.35
+2972,Suburbs,4,villa,7.1,8.1,5.0,25457751.62
+3160,Downtown,2,apartment,7.0,3.1,1.0,41578235.64
+3239,Downtown,3,villa,14.1,5.6,4.0,66736538.43
+2261,Downtown,2,independent house,14.8,11.8,1.0,30295654.28
+4014,Downtown,1,villa,12.0,14.5,2.0,76543157.35
+2475,Outskirts,2,independent house,11.5,2.9,3.0,6600195.68
+2862,Downtown,3,independent house,10.4,12.2,3.0,45806055.75
+1376,Outskirts,3,independent house,2.9,11.2,3.0,3706720.35
+4312,Outskirts,2,independent house,1.4,10.5,2.0,14631391.35
+3948,Downtown,4,independent house,10.5,14.0,4.0,49112470.07
+1812,Business District,3,villa,11.1,16.8,,24263008.74
+1960,Industrial Area,4,apartment,1.2,6.8,5.0,7206746.45
+3209,Suburbs,3,apartment,,17.8,2.0,15972817.36
+2824,Outskirts,3,apartment,1.8,3.6,4.0,7273577.05
+2233,Industrial Area,2,apartment,,3.9,3.0,7731374.99
+2105,Business District,2,apartment,,5.7,3.0,24098104.07
+3063,Suburbs,5,independent house,3.0,2.8,6.0,21829360.19
+3921,Suburbs,2,independent house,1.3,5.0,,23054644.72
+4017,Outskirts,5,independent house,5.3,2.6,6.0,14306947.62
+2897,Downtown,3,apartment,11.6,16.5,3.0,30102626.1
+4235,Business District,2,apartment,6.5,3.2,3.0,46481433.52
+3370,Outskirts,1,apartment,10.0,15.1,1.0,7505816.25
+1660,Business District,2,apartment,8.9,1.4,1.0,18338300.47
+742,Downtown,4,apartment,0.8,19.0,3.0,9217103.36
+3090,Downtown,2,apartment,14.8,14.4,2.0,42474672.45
+1563,Outskirts,2,independent house,1.1,0.6,3.0,5215418.13
+4824,Downtown,2,villa,14.5,15.4,3.0,80110177.78
+3095,Industrial Area,2,apartment,8.5,10.5,3.0,9419134.37
+1419,Suburbs,2,apartment,14.5,15.7,2.0,7621336.78
+505,Outskirts,2,apartment,2.2,10.7,1.0,1384528.26
+967,Business District,4,apartment,7.6,13.0,4.0,10223415.36
+4670,Industrial Area,2,independent house,,15.8,3.0,21442981.52
+503,Outskirts,2,apartment,1.2,8.4,1.0,1532691.03
+1145,Downtown,2,apartment,9.5,0.6,1.0,16547145.46
+617,Downtown,2,apartment,3.5,17.1,2.0,7279848.24
+3428,Downtown,5,apartment,9.0,7.9,4.0,47131724.66
+3051,Downtown,3,villa,2.1,10.2,2.0,54978803.85
+4789,Business District,1,villa,5.3,0.7,1.0,86934498.53
+1346,Industrial Area,3,villa,,10.1,4.0,7246827.24
+3262,Suburbs,2,apartment,6.8,19.7,1.0,17548620.35
+1641,Business District,1,apartment,9.6,5.9,1.0,16802904.37
+2310,Business District,5,apartment,9.9,8.2,5.0,23647516.84
+1223,Suburbs,3,independent house,12.7,13.9,3.0,8002501.27
+724,Suburbs,5,apartment,5.2,16.4,4.0,3242869.58
+4708,Downtown,2,apartment,10.5,8.6,3.0,54188174.03
+2548,Business District,3,villa,14.4,6.5,2.0,39575813.15
+4915,Outskirts,2,villa,11.1,18.8,1.0,20157292.13
+2073,Suburbs,2,apartment,7.6,13.7,3.0,9005435.43
+2328,Suburbs,4,apartment,9.6,2.8,5.0,10483346.27
+2417,Industrial Area,2,apartment,11.2,1.8,2.0,7390715.59
+4734,Outskirts,4,independent house,9.4,9.9,4.0,11906458.31
+2526,Outskirts,3,apartment,0.7,4.8,3.0,8037346.5
+4244,Suburbs,2,independent house,3.3,5.5,2.0,29717593.04
+1401,Downtown,3,apartment,12.3,17.6,4.0,17705253.67
+2539,Industrial Area,3,independent house,4.5,2.2,2.0,11447657.94
+509,Outskirts,2,independent house,11.1,14.4,2.0,1589915.99
+760,Suburbs,4,apartment,5.9,5.8,4.0,3610522.06
+2173,Outskirts,3,independent house,8.1,15.3,4.0,6199177.47
+2719,Industrial Area,2,apartment,1.5,14.6,3.0,9596396.49
+2560,Industrial Area,3,independent house,3.1,0.6,2.0,10450296.47
+4213,Business District,5,villa,14.4,10.4,4.0,59202336.63
+2119,Suburbs,2,apartment,13.4,3.2,3.0,10428239.74
+820,Industrial Area,4,villa,10.0,17.4,4.0,3387615.4
+1842,Business District,2,independent house,7.2,17.5,2.0,19569071.04
+2876,Business District,3,apartment,10.3,8.7,3.0,30280779.83
+3332,Outskirts,3,apartment,9.5,9.2,2.0,6951712.66
+3324,Outskirts,2,villa,8.7,6.4,2.0,14353761.35
+2494,Business District,2,independent house,1.4,14.5,2.0,27871527.43
+3458,Outskirts,3,apartment,9.7,7.5,4.0,9360779.12
+2538,Industrial Area,2,apartment,,5.7,2.0,10149861.7
+3990,Downtown,3,apartment,,8.9,4.0,58350477.5
+4177,Industrial Area,2,apartment,0.7,2.3,2.0,17993443.58
+1618,Business District,4,apartment,11.1,15.1,3.0,14542817.18
+2104,Business District,3,independent house,8.8,0.7,3.0,26046336.39
+4527,Industrial Area,4,apartment,6.8,13.1,4.0,14733860.42
+735,Outskirts,2,villa,2.3,4.1,3.0,2760818.24
+2469,Outskirts,3,apartment,6.4,5.0,4.0,5622061.28
+4929,Business District,3,apartment,5.6,12.9,4.0,55448978.29
+2408,Suburbs,2,apartment,4.9,19.9,2.0,12494905.8
+875,Outskirts,2,apartment,,15.7,2.0,2304026.42
+4030,Industrial Area,1,villa,10.7,4.9,2.0,23213045.61
+3135,Outskirts,3,independent house,9.0,3.9,2.0,10317050.66
+2070,Industrial Area,3,villa,14.1,17.4,3.0,10504896.13
+3060,Business District,1,independent house,5.6,9.2,2.0,40774586.56
+3891,Outskirts,3,independent house,4.0,3.2,2.0,11502920.77
+3465,Industrial Area,2,apartment,10.0,17.3,3.0,10622843.39
+4143,Business District,1,independent house,3.4,16.4,2.0,58921837.32
+4350,Suburbs,5,villa,5.1,19.7,6.0,37455599.39
+1372,Industrial Area,4,apartment,3.8,18.2,5.0,5275734.43
+1752,Suburbs,3,villa,,17.1,2.0,13210155.57
+1814,Suburbs,1,apartment,12.5,1.5,2.0,10664521.19
+3398,Downtown,3,apartment,4.2,2.5,4.0,41112198.49
+577,Outskirts,2,villa,7.4,11.6,2.0,1918560.65
+3121,Industrial Area,2,apartment,1.1,10.9,,10811832.93
+4727,Suburbs,2,apartment,10.6,9.4,3.0,22745875.93
+1100,Downtown,3,independent house,5.3,8.2,2.0,15911876.11
+1565,Business District,3,villa,11.3,8.9,3.0,21862195.4
+2636,Industrial Area,2,apartment,6.5,11.6,3.0,7913539.96
+2949,Suburbs,3,villa,3.3,0.5,3.0,25449211.59
+2843,Outskirts,4,apartment,7.9,5.6,4.0,8027941.16
+2363,Downtown,2,apartment,2.4,10.6,2.0,32552883.35
+1818,Suburbs,3,independent house,6.9,14.6,3.0,9597590.64
+4097,Outskirts,4,villa,5.1,3.9,4.0,16714711.17
+4262,Suburbs,2,apartment,13.7,11.2,1.0,21670611.19
+2690,Industrial Area,2,independent house,1.4,14.4,1.0,11542632.94
+1492,Industrial Area,3,independent house,10.6,9.2,4.0,5598524.69
+3212,Industrial Area,3,apartment,3.1,1.0,2.0,12771872.76
+2692,Downtown,4,apartment,5.1,9.3,3.0,39424868.01
+1748,Industrial Area,2,apartment,,6.3,1.0,5448201.32
+3554,Outskirts,5,villa,13.7,18.6,5.0,12372246.45
+4533,Suburbs,1,villa,4.0,2.9,2.0,36917817.86
+2497,Business District,1,villa,1.8,13.2,,40557722.03
+4187,Outskirts,3,independent house,5.1,1.5,4.0,12609324.53
+2651,Outskirts,2,villa,2.0,9.2,3.0,9565761.47
+4518,Industrial Area,2,apartment,2.4,11.3,3.0,14811684.19
+3610,Downtown,2,apartment,8.8,6.3,2.0,52260711.92
+2470,Suburbs,2,apartment,1.4,9.4,1.0,14147875.3
+697,Downtown,1,apartment,0.9,3.7,1.0,10457892.09
+3126,Suburbs,5,villa,10.9,6.4,5.0,25756479.72
+1702,Suburbs,2,independent house,5.7,12.6,3.0,9176267.37
+2535,Downtown,3,apartment,2.3,6.4,4.0,38459293.39
+977,Outskirts,3,apartment,4.2,18.0,4.0,2586343.54
+1754,Suburbs,4,villa,9.8,12.8,4.0,12034933.19
+1422,Downtown,1,apartment,4.5,9.1,1.0,20175400.32
+919,Suburbs,4,apartment,,1.3,5.0,5635588.61
+2704,Business District,3,apartment,2.3,10.2,3.0,31408233.95
+3097,Outskirts,3,apartment,9.0,15.4,2.0,6657659.76
+1620,Industrial Area,3,independent house,5.1,5.7,3.0,7912865.91
+3568,Suburbs,4,apartment,9.6,16.2,4.0,19585362.02
+1450,Business District,2,apartment,12.2,5.4,2.0,14090968.85
+2836,Industrial Area,3,apartment,9.4,16.6,3.0,7952520.32
+2743,Industrial Area,3,independent house,,2.2,2.0,10998003.18
+3145,Suburbs,3,apartment,4.2,17.4,4.0,18584207.33
+2357,Downtown,5,apartment,5.2,10.2,5.0,30547798.07
+2365,Suburbs,2,apartment,2.9,6.3,1.0,12330312.21
+3412,Business District,5,apartment,3.1,5.7,6.0,34968315.61
+3353,Industrial Area,1,apartment,12.0,8.9,2.0,10084162.11
+3728,Suburbs,1,villa,6.1,20.0,1.0,29536404.4
+4219,Downtown,1,apartment,6.8,4.8,1.0,54591011.3
+3728,Suburbs,2,apartment,9.1,2.5,2.0,22534125.29
+2871,Outskirts,3,independent house,9.0,11.9,3.0,8833567.11
+3391,Downtown,1,apartment,1.5,10.0,2.0,48959487.18
+4256,Business District,1,apartment,12.6,10.7,1.0,38317175.13
+4725,Industrial Area,4,apartment,3.1,13.5,5.0,14350654.65
+594,Suburbs,4,independent house,11.0,5.7,5.0,3592171.55
+3174,Downtown,4,apartment,11.7,18.3,5.0,35969334.58
+2455,Outskirts,4,independent house,10.9,9.0,5.0,6518963.68
+1293,Downtown,3,villa,8.9,3.0,4.0,29110924.72
+2334,Outskirts,2,apartment,0.7,15.0,1.0,6147717.09
+2616,Business District,2,independent house,5.7,13.0,3.0,28657146.65
+4606,Industrial Area,3,apartment,9.3,6.7,3.0,14077040.79
+3825,Business District,2,apartment,6.1,12.6,2.0,35976633.08
+3419,Suburbs,3,independent house,13.0,4.8,3.0,24115238.56
+3097,Downtown,1,villa,5.0,9.2,1.0,55626575.36
+3705,Outskirts,2,villa,4.8,18.0,2.0,13475410.43
+1314,Outskirts,3,apartment,4.4,3.1,2.0,3820639.84
+845,Downtown,3,apartment,5.3,8.0,4.0,10309963.56
+2849,Downtown,3,villa,8.6,16.5,3.0,47730682.92
+862,Suburbs,3,apartment,10.8,19.4,2.0,3713873.17
+2943,Business District,1,apartment,,9.4,2.0,28531687.22
+2765,Outskirts,2,apartment,12.2,10.4,1.0,5851456.95
+2688,Suburbs,4,apartment,13.3,11.7,4.0,11039215.71
+3505,Business District,3,independent house,12.3,18.7,2.0,44067810.18
+3781,Suburbs,2,apartment,,17.2,2.0,17188347.59
+1484,Outskirts,4,independent house,11.2,3.8,3.0,4986423.14
+2139,Downtown,2,apartment,3.5,9.0,3.0,30580370.74
+1327,Downtown,2,villa,2.4,9.5,,26603693.27
+3230,Business District,2,apartment,9.8,15.9,3.0,29310679.41
+4031,Industrial Area,3,apartment,5.1,12.3,4.0,12231502.54
+4951,Business District,3,apartment,1.3,13.3,4.0,56442222.2
+3435,Industrial Area,2,apartment,2.5,20.0,2.0,12388177.51
+4376,Suburbs,4,apartment,0.5,2.0,5.0,26793463.89
+626,Suburbs,2,independent house,,4.8,3.0,3466243.48
+3677,Outskirts,2,villa,0.9,8.5,3.0,16913817.82
+3556,Industrial Area,2,apartment,3.5,7.3,3.0,11036959.95
+1103,Outskirts,2,apartment,6.5,0.9,1.0,2941696.62
+3949,Downtown,1,apartment,5.7,2.3,1.0,52905646.38
+4646,Industrial Area,3,apartment,13.7,13.8,4.0,12643165.86
+4033,Business District,4,villa,1.1,17.6,4.0,64479712.64
+3867,Downtown,3,independent house,7.9,10.5,2.0,61480672.73
+3868,Downtown,2,apartment,10.4,11.0,2.0,50917451.34
+4297,Business District,1,apartment,14.0,5.5,1.0,48530857.93
+2292,Downtown,2,apartment,9.5,15.5,2.0,27573932.59
+3361,Industrial Area,2,villa,12.2,15.2,2.0,16765058.26
+3976,Outskirts,3,apartment,1.7,12.0,4.0,9203821.0
+3917,Downtown,2,villa,6.1,4.6,1.0,78419896.64
+2145,Industrial Area,3,villa,5.9,2.4,2.0,10579652.41
+1705,Suburbs,4,apartment,13.4,1.8,4.0,8670002.43
+3530,Industrial Area,2,villa,2.7,12.1,3.0,17543289.4
+3372,Outskirts,4,apartment,2.7,16.6,4.0,8628697.9
+3572,Industrial Area,3,villa,5.3,17.2,3.0,18543027.79
+2354,Business District,3,apartment,1.3,9.5,3.0,28242626.97
+4521,Outskirts,3,apartment,3.1,15.8,4.0,11413157.94
+3208,Suburbs,2,independent house,14.5,19.0,3.0,21145194.22
+4002,Business District,2,independent house,6.7,5.9,1.0,54281555.3
+1832,Industrial Area,2,independent house,9.7,8.3,3.0,7235588.09
+701,Outskirts,2,apartment,11.0,18.7,2.0,1755093.02
+4007,Suburbs,3,villa,5.8,7.1,3.0,27662527.19
+4712,Business District,2,apartment,2.6,18.3,1.0,54527276.0
+1074,Suburbs,4,independent house,3.5,19.6,5.0,6854135.54
+1036,Industrial Area,3,apartment,5.0,13.4,3.0,4036037.23
+2125,Suburbs,2,independent house,9.7,16.4,1.0,12788744.97
+2622,Downtown,2,independent house,6.3,15.1,1.0,43462580.17
+885,Business District,4,villa,0.6,14.1,4.0,15522134.14
+3781,Suburbs,4,apartment,8.1,6.5,4.0,18475640.54
+974,Industrial Area,3,apartment,13.9,1.6,4.0,3195689.08
+917,Industrial Area,2,independent house,12.3,7.2,1.0,3568529.44
+4100,Suburbs,2,apartment,12.5,13.5,2.0,19486592.9
+1454,Industrial Area,2,independent house,12.0,2.5,1.0,5630624.78
+1705,Outskirts,2,apartment,5.2,0.7,3.0,5383000.32
+4620,Outskirts,3,apartment,11.6,3.2,3.0,12184041.36
+2490,Outskirts,3,independent house,2.6,14.5,4.0,8959052.94
+4072,Downtown,3,villa,10.0,19.5,2.0,80112918.92
+4880,Suburbs,4,apartment,,19.7,5.0,25303914.77
+4658,Downtown,3,apartment,0.9,10.1,4.0,70603206.44
+3213,Industrial Area,2,apartment,11.9,17.5,1.0,10296636.27
+2703,Downtown,2,villa,13.6,14.9,3.0,54304284.08
+3620,Industrial Area,4,apartment,4.4,10.3,3.0,11867396.48
+1466,Industrial Area,1,independent house,12.3,11.7,2.0,5424487.37
+3932,Business District,4,independent house,1.7,3.2,3.0,52523870.87
+1188,Outskirts,4,apartment,9.2,18.8,3.0,2919992.53
+4743,Industrial Area,2,villa,7.5,7.4,2.0,24606382.33
+4201,Business District,3,apartment,8.4,9.2,2.0,41494611.92
+841,Outskirts,4,apartment,13.9,13.6,,1900929.71
+2224,Industrial Area,3,independent house,13.1,7.0,3.0,9995984.1
+4922,Industrial Area,4,apartment,11.9,5.5,3.0,17078485.06
+2292,Downtown,4,apartment,4.5,12.8,5.0,28581301.05
+2259,Downtown,2,apartment,13.7,1.0,3.0,31525392.56
+3712,Outskirts,2,apartment,1.9,14.6,2.0,10599507.77
+1489,Industrial Area,4,apartment,12.9,10.5,5.0,5423383.16
+2762,Suburbs,3,villa,5.3,12.3,4.0,21051878.32
+2982,Downtown,2,villa,1.3,12.8,1.0,52587679.76
+1451,Outskirts,1,villa,10.2,10.8,2.0,5130775.27
+1222,Industrial Area,3,apartment,3.9,11.9,3.0,4182016.85
+3889,Industrial Area,4,apartment,4.0,13.8,3.0,14971475.09
+2579,Suburbs,4,apartment,4.9,15.2,5.0,12752783.15
+3217,Outskirts,3,apartment,1.4,14.7,3.0,9713669.63
+2832,Industrial Area,2,apartment,3.1,17.5,3.0,9800123.41
+3876,Downtown,2,apartment,0.6,4.2,2.0,63216302.88
+2000,Suburbs,4,apartment,,8.3,4.0,8868988.6
+785,Outskirts,2,apartment,1.7,19.0,2.0,2328261.78
+3995,Suburbs,2,independent house,10.4,8.2,2.0,26572095.73
+2565,Downtown,2,independent house,3.9,2.9,3.0,48981820.11
+1268,Outskirts,3,villa,14.2,10.7,4.0,3897987.53
+3557,Suburbs,4,independent house,13.1,2.6,5.0,20178945.33
+4789,Business District,2,villa,4.7,4.5,3.0,81882025.62
+2661,Downtown,2,apartment,11.9,20.0,1.0,27386218.2
+3793,Downtown,3,apartment,12.1,11.1,3.0,39557168.12
+1446,Downtown,5,villa,14.8,6.0,5.0,25042575.89
+3835,Business District,2,villa,9.2,19.9,2.0,55984393.06
+4650,Business District,2,villa,1.7,19.3,1.0,74924857.51
+1981,Industrial Area,2,villa,9.9,9.1,3.0,8282467.33
+2401,Suburbs,4,apartment,9.6,5.6,4.0,11008221.42
+3951,Industrial Area,2,villa,9.8,16.8,3.0,19010533.26
+4564,Suburbs,2,independent house,5.0,14.5,3.0,28718855.81
+554,Business District,3,apartment,13.0,13.9,2.0,4757417.87
+2323,Business District,3,villa,14.4,17.9,2.0,32436037.15
+3962,Industrial Area,1,apartment,3.7,13.9,1.0,15336102.18
+3579,Outskirts,4,villa,,6.0,4.0,16479246.0
+1332,Industrial Area,2,villa,3.3,14.0,2.0,7941846.04
+4908,Suburbs,3,apartment,12.4,6.5,2.0,27404587.52
+3306,Industrial Area,2,villa,10.3,15.3,1.0,15367314.6
+2990,Downtown,3,apartment,9.7,12.6,2.0,38030366.75
+827,Suburbs,2,villa,,2.0,1.0,6748785.67
+3810,Suburbs,4,apartment,8.9,10.5,3.0,19365543.26
+3800,Outskirts,3,villa,,7.2,2.0,14155457.17
+4175,Business District,3,apartment,7.4,6.9,2.0,44303660.43
+3554,Suburbs,3,villa,12.0,12.2,3.0,25771185.42
+2643,Business District,3,apartment,14.7,6.8,2.0,22623348.66
+1811,Industrial Area,1,independent house,14.0,15.6,,7560725.33
+3691,Downtown,2,independent house,,1.9,2.0,52796489.06
+3038,Outskirts,4,independent house,6.3,13.4,4.0,8586060.14
+4483,Business District,2,villa,7.3,16.3,3.0,56842448.17
+664,Suburbs,3,villa,10.7,13.6,2.0,4603243.12
+4777,Business District,5,apartment,13.9,10.2,4.0,39849267.39
+1322,Suburbs,1,apartment,2.6,19.0,1.0,7792575.87
+1443,Business District,3,apartment,4.9,6.3,2.0,14987638.07
+4925,Suburbs,2,villa,2.5,0.9,3.0,42297657.63
+1274,Industrial Area,3,independent house,9.4,8.9,3.0,4771068.6
+2698,Suburbs,1,apartment,,1.1,2.0,15781980.41
+3656,Suburbs,1,independent house,5.2,19.1,2.0,24226647.27
+4742,Downtown,3,villa,1.5,4.6,2.0,104639300.77
+4195,Suburbs,4,villa,5.6,15.9,3.0,34237972.33
+3952,Downtown,3,apartment,13.0,15.6,2.0,53199868.51
+1414,Outskirts,3,apartment,3.9,4.7,4.0,4300049.48
+1808,Downtown,1,apartment,10.6,12.6,1.0,22828911.66
+4677,Industrial Area,3,villa,9.6,1.4,3.0,22837089.53
+1013,Downtown,2,apartment,13.0,9.9,1.0,12673997.48
+2420,Outskirts,4,apartment,2.4,0.8,3.0,7040505.02
+4094,Industrial Area,4,independent house,14.7,18.5,3.0,16745428.45
+1909,Business District,3,independent house,8.9,19.5,2.0,24520785.6
+3690,Business District,4,independent house,14.9,4.8,5.0,48568408.97
+4991,Downtown,1,apartment,13.7,4.6,2.0,70581896.37
+2055,Downtown,3,apartment,3.7,15.2,3.0,23121370.25
+1304,Outskirts,2,villa,1.3,5.4,3.0,4705551.83
+1779,Outskirts,4,apartment,4.2,18.0,3.0,4247387.65
+4077,Suburbs,2,apartment,8.1,11.7,2.0,22442506.73
+3401,Outskirts,3,apartment,3.0,7.3,3.0,10040738.68
+1887,Suburbs,4,apartment,2.9,16.7,5.0,10402049.49
+3261,Industrial Area,1,apartment,7.2,10.1,2.0,11450916.1
+3179,Downtown,2,apartment,1.0,18.3,1.0,45325594.61
+2606,Industrial Area,3,apartment,2.3,18.6,3.0,10355709.98
+4723,Outskirts,2,apartment,6.5,3.7,1.0,13991778.35
+3268,Industrial Area,2,villa,1.4,0.5,2.0,19947488.81

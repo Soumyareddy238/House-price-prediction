@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Property | SmartProp</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { background: #020617; color: #f8fafc; padding: 2rem; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+        .edit-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); padding: 2rem; border-radius: 1.5rem; width: 100%; max-width: 600px; backdrop-filter: blur(10px); }
+        h2 { font-size: 1.8rem; margin-bottom: 1.5rem; background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .form-group { margin-bottom: 1rem; }
+        label { display: block; font-size: 0.8rem; color: #94a3b8; margin-bottom: 0.4rem; }
+        input, select { width: 100%; background: #1e293b; border: 1px solid #334155; padding: 0.7rem; border-radius: 0.5rem; color: #fff; outline: none; }
+        input:focus { border-color: #6366f1; }
+        .btn-save { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: #fff; border: none; padding: 0.8rem; border-radius: 0.5rem; font-weight: 600; cursor: pointer; width: 100%; margin-top: 1rem; transition: 0.2s; }
+        .btn-save:hover { transform: translateY(-2px); opacity: 0.9; }
+        .btn-cancel { display: block; text-align: center; margin-top: 1rem; color: #94a3b8; text-decoration: none; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="edit-card">
+        <h2>Edit Property</h2>
+        <form method="POST">
+            <div class="form-grid">
+                <div class="form-group"><label>Area (sqft)</label><input type="number" step="any" name="area" value="{{ prop.area }}" required></div>
+                <div class="form-group">
+                    <label>Location</label>
+                    <select name="location" required>
+                        <option value="Downtown" {% if prop.location == 'Downtown' %}selected{% endif %}>Downtown</option>
+                        <option value="Suburbs" {% if prop.location == 'Suburbs' %}selected{% endif %}>Suburbs</option>
+                        <option value="Business District" {% if prop.location == 'Business District' %}selected{% endif %}>Business District</option>
+                        <option value="Industrial Area" {% if prop.location == 'Industrial Area' %}selected{% endif %}>Industrial Area</option>
+                        <option value="Outskirts" {% if prop.location == 'Outskirts' %}selected{% endif %}>Outskirts</option>
+                    </select>
+                </div>
+                <div class="form-group"><label>BHK</label><input type="number" name="bhk" value="{{ prop.bhk }}" required></div>
+                <div class="form-group"><label>Bathrooms</label><input type="number" name="bathrooms" value="{{ prop.bathrooms }}" required></div>
+                <div class="form-group">
+                    <label>Property Type</label>
+                    <select name="property_type" required>
+                        <option value="apartment" {% if prop.property_type == 'apartment' %}selected{% endif %}>Apartment</option>
+                        <option value="villa" {% if prop.property_type == 'villa' %}selected{% endif %}>Villa</option>
+                        <option value="independent house" {% if prop.property_type == 'independent house' %}selected{% endif %}>Independent House</option>
+                    </select>
+                </div>
+                <div class="form-group"><label>School Dist (km)</label><input type="number" step="any" name="nearby_school_distance" value="{{ prop.nearby_school_distance }}" required></div>
+                <div class="form-group"><label>Hospital Dist (km)</label><input type="number" step="any" name="nearby_hospital_distance" value="{{ prop.nearby_hospital_distance }}" required></div>
+                <div class="form-group"><label>Price (₹)</label><input type="number" step="any" name="price" value="{{ prop.price }}" required></div>
+            </div>
+            <button type="submit" class="btn-save">Update Property</button>
+            <a href="{{ url_for('admin_dashboard') }}" class="btn-cancel">Cancel</a>
+        </form>
+    </div>
+</body>
+</html>
