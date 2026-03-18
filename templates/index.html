@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartProp | Real Estate AI Insights</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="glass-bg"></div>
+    
+    <nav>
+        <div class="logo">Smart<span>Prop</span></div>
+        <div class="nav-links">
+            <a href="#predict">Predict</a>
+            <a href="#insights">Market Insights</a>
+            <a href="#recommend">Recommendations</a>
+            {% if session.get('user_id') or session.get('admin_logged_in') %}
+                <span class="nav-user" style="color: #fff; margin-left: 1rem; font-weight: 600;">Welcome, {{ session.get('username') }}</span>
+                <a href="{{ url_for('logout') }}" class="btn-primary" style="padding: 0.5rem 1rem; margin-left: 1rem; text-decoration: none; border-radius: 0.5rem; display: inline-block;">Logout</a>
+                {% if session.get('role') == 'admin' %}
+                    <a href="{{ url_for('admin_dashboard') }}" class="btn-primary" style="padding: 0.5rem 1rem; margin-left: 0.5rem; text-decoration: none; border-radius: 0.5rem; display: inline-block; background: #8b5cf6;">Dashboard</a>
+                {% endif %}
+            {% else %}
+                <a href="{{ url_for('login') }}" class="btn-primary" style="padding: 0.5rem 1rem; margin-left: 1rem; text-decoration: none; border-radius: 0.5rem; display: inline-block;">Login</a>
+                <a href="{{ url_for('signup') }}" class="btn-primary" style="padding: 0.5rem 1rem; margin-left: 0.5rem; background: transparent; border: 1px solid #6366f1; text-decoration: none; border-radius: 0.5rem; display: inline-block;">Sign Up</a>
+                <a href="{{ url_for('admin') }}" class="btn-primary" style="padding: 0.5rem 1rem; margin-left: 0.5rem; background: transparent; border: 1px solid #a855f7; text-decoration: none; border-radius: 0.5rem; display: inline-block; color: #a855f7;">Admin</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <h1>Predict the Future of <span>Real Estate</span></h1>
+            <p>Leveraging machine learning to provide accurate price predictions and smart property recommendations.</p>
+        </header>
+
+        <section id="predict" class="card-section">
+            <div class="card">
+                <h2>Price Estimator</h2>
+                <form id="predictionForm">
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label>Area (sqft)</label>
+                            <input type="number" id="area" placeholder="e.g. 1500" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Location</label>
+                            <select id="location" required>
+                                <option value="Downtown">Downtown</option>
+                                <option value="Business District">Business District</option>
+                                <option value="Suburbs">Suburbs</option>
+                                <option value="Industrial Area">Industrial Area</option>
+                                <option value="Outskirts">Outskirts</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label>BHK</label>
+                            <input type="number" id="bhk" placeholder="e.g. 3" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Bathrooms</label>
+                            <input type="number" id="bathrooms" placeholder="e.g. 2" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Property Type</label>
+                            <select id="property_type" required>
+                                <option value="apartment">Apartment</option>
+                                <option value="villa">Villa</option>
+                                <option value="independent house">Independent House</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label>School Dist (km)</label>
+                            <input type="number" step="0.1" id="school_dist" placeholder="e.g. 2.5" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Hospital Dist (km)</label>
+                            <input type="number" step="0.1" id="hospital_dist" placeholder="e.g. 1.2" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">Calculate Price</button>
+                </form>
+
+                <div id="result" class="result-box hidden">
+                    <h3>Estimated Value</h3>
+                    <div class="price-display">₹ <span id="predictedPrice">0</span></div>
+                    <div id="anomalyBadge" class="badge">Normal Range</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="insights" class="card-section">
+            <div class="card">
+                <h2>Market Visualizations</h2>
+                <div class="chart-container">
+                    <canvas id="priceChart"></canvas>
+                </div>
+                <div class="chart-container mt-4">
+                    <canvas id="locationChart"></canvas>
+                </div>
+                <div class="chart-container mt-4">
+                    <canvas id="scatterChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommend" class="card-section">
+            <div class="card">
+                <h2>Similar Properties For You</h2>
+                <div id="recommendationList" class="recommendation-grid">
+                    <p class="placeholder">Prediction data will trigger recommendations...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SmartProp Real Estate AI System. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const data = {
+                area: document.getElementById('area').value,
+                location: document.getElementById('location').value,
+                bhk: document.getElementById('bhk').value,
+                bathrooms: document.getElementById('bathrooms').value,
+                property_type: document.getElementById('property_type').value,
+                nearby_school_distance: document.getElementById('school_dist').value,
+                nearby_hospital_distance: document.getElementById('hospital_dist').value
+            };
+
+            // Predict Price
+            const resp = await fetch('/predict', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            const result = await resp.json();
+
+            if (result.success) {
+                const resultBox = document.getElementById('result');
+                resultBox.classList.remove('hidden');
+                document.getElementById('predictedPrice').innerText = result.predicted_price.toLocaleString('en-IN');
+                
+                const badge = document.getElementById('anomalyBadge');
+                if (result.is_anomaly) {
+                    badge.innerText = "Targeting Anomaly!";
+                    badge.className = "badge anomaly";
+                } else {
+                    badge.innerText = "Standard Market Price";
+                    badge.className = "badge success";
+                }
+
+                // Trigger Recommendations
+                getRecommendations(data);
+            } else {
+                if (result.redirect_to_login) {
+                    alert(result.error);
+                    window.location.href = "{{ url_for('login') }}";
+                } else {
+                    alert("Error: " + result.error);
+                }
+            }
+        });
+
+        async function getRecommendations(inputData) {
+            const resp = await fetch('/recommend', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(inputData)
+            });
+            const result = await resp.json();
+            const list = document.getElementById('recommendationList');
+            list.innerHTML = '';
+
+            if (result.success) {
+                result.recommendations.forEach(prop => {
+                    const card = document.createElement('div');
+                    card.className = 'prop-card';
+                    card.innerHTML = `
+                        <h4>₹${prop.price.toLocaleString('en-IN')}</h4>
+                        <p><strong>${prop.location}</strong></p>
+                        <p>${prop.bhk} BHK | ${prop.area} sqft</p>
+                        <p class="type-tag">${prop.property_type}</p>
+                    `;
+                    list.appendChild(card);
+                });
+            }
+        }
+
+        async function loadInsights() {
+            const resp = await fetch('/insights');
+            const data = await resp.json();
+            if (data.success) {
+                // Price by Location
+                new Chart(document.getElementById('priceChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: Object.keys(data.avg_price_by_location),
+                        datasets: [{
+                            label: 'Avg Price (₹) by Location',
+                            data: Object.values(data.avg_price_by_location),
+                            backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                            borderColor: 'rgba(54, 162, 235, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: { responsive: true, color: '#fff' }
+                });
+
+                // Price by Property Type
+                new Chart(document.getElementById('locationChart'), {
+                    type: 'pie',
+                    data: {
+                        labels: Object.keys(data.avg_price_by_type),
+                        datasets: [{
+                            data: Object.values(data.avg_price_by_type),
+                            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56']
+                        }]
+                    },
+                    options: { 
+                        responsive: true, 
+                        plugins: {
+                            legend: { labels: { color: '#fff' } },
+                            title: { display: true, text: 'Avg Price by Property Type', color: '#fff' }
+                        }
+                    }
+                });
+
+                // Price vs Area Scatter Plot
+                const scatterPoints = data.scatter_sample.map(d => ({ 
+                    x: d.area, 
+                    y: d.price,
+                    status: d.anomaly_status || 'Normal'
+                }));
+                
+                const bgColors = scatterPoints.map(p => {
+                    if (p.status === 'Overpriced') return 'rgba(239, 68, 68, 0.6)';
+                    if (p.status === 'Underpriced') return 'rgba(59, 130, 246, 0.6)';
+                    return 'rgba(16, 185, 129, 0.6)';
+                });
+                
+                const borderColors = scatterPoints.map(p => {
+                    if (p.status === 'Overpriced') return 'rgba(239, 68, 68, 1)';
+                    if (p.status === 'Underpriced') return 'rgba(59, 130, 246, 1)';
+                    return 'rgba(16, 185, 129, 1)';
+                });
+
+                new Chart(document.getElementById('scatterChart'), {
+                    type: 'scatter',
+                    data: {
+                        datasets: [{
+                            label: 'Properties (Red=Over, Blue=Under, Green=Normal)',
+                            data: scatterPoints,
+                            backgroundColor: bgColors,
+                            borderColor: borderColors,
+                            pointRadius: 5,
+                            pointHoverRadius: 7
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            x: { 
+                                title: { display: true, text: 'Area (sqft)', color: '#fff' },
+                                ticks: { color: '#fff' },
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            },
+                            y: { 
+                                title: { display: true, text: 'Price (₹)', color: '#fff' },
+                                ticks: { color: '#fff' },
+                                grid: { color: 'rgba(255, 255, 255, 0.1)' }
+                            }
+                        },
+                        plugins: {
+                            legend: { labels: { color: '#fff' } },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        let point = context.raw;
+                                        return `Area: ${point.x} sqft, Price: ₹${point.y} (${point.status})`;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+        }
+
+        loadInsights();
+    </script>
+</body>
+</html>
