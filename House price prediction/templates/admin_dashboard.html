@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | SmartProp</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { background: #020617; color: #f8fafc; padding: 2rem; }
+        .dashboard-container { max-width: 1200px; margin: 0 auto; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+        .header h1 { font-size: 2rem; font-weight: 800; background: linear-gradient(135deg, #fff 0%, #94a3b8 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+        .stat-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); padding: 1.5rem; border-radius: 1rem; }
+        .stat-card h3 { color: #94a3b8; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.5rem; }
+        .stat-card .value { font-size: 1.8rem; font-weight: 700; color: #818cf8; }
+
+        .actions-bar { margin-bottom: 2rem; display: flex; justify-content: flex-end; }
+        .btn { padding: 0.6rem 1.2rem; border-radius: 0.5rem; font-weight: 600; cursor: pointer; border: none; transition: 0.2s; text-decoration: none; display: inline-block; font-size: 0.9rem; }
+        .btn-add { background: #10b981; color: #fff; }
+        .btn-add:hover { background: #059669; }
+        .btn-edit { background: #3b82f6; color: #fff; margin-right: 0.5rem; }
+        .btn-delete { background: #ef4444; color: #fff; }
+        
+        .data-table-container { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 1rem; overflow: hidden; }
+        table { width: 100%; border-collapse: collapse; text-align: left; }
+        th { background: rgba(255, 255, 255, 0.05); padding: 1rem; color: #94a3b8; font-weight: 600; font-size: 0.85rem; }
+        td { padding: 1rem; border-bottom: 1px solid rgba(255, 255, 255, 0.05); font-size: 0.9rem; }
+        tr:hover { background: rgba(255, 255, 255, 0.02); }
+
+        .modal { display: none; position: fixed; z-index: 10; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); }
+        .modal-content { background: #0f172a; margin: 5% auto; padding: 2rem; border-radius: 1.5rem; width: 90%; max-width: 600px; border: 1px solid rgba(255,255,255,0.1); }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+        .modal-header h2 { font-size: 1.5rem; }
+        .close { color: #94a3b8; font-size: 2rem; cursor: pointer; }
+
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .form-group { margin-bottom: 1rem; }
+        .form-group.full { grid-column: span 2; }
+        label { display: block; font-size: 0.8rem; color: #94a3b8; margin-bottom: 0.4rem; }
+        input, select { width: 100%; background: #1e293b; border: 1px solid #334155; padding: 0.6rem; border-radius: 0.4rem; color: #fff; outline: none; }
+        input:focus { border-color: #6366f1; }
+        .role-badge { padding: 0.2rem 0.6rem; border-radius: 0.25rem; font-size: 0.8rem; font-weight: 600; }
+        .role-badge.admin { background: rgba(16, 185, 129, 0.2); color: #10b981; }
+        .role-badge.user { background: rgba(255,255,255,0.1); color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="header">
+            <h1>Admin Management</h1>
+            <a href="/" class="btn" style="background: rgba(255,255,255,0.05);">← Home</a>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card"><h3>Total Properties</h3><div class="value">{{ stats.total_properties }}</div></div>
+            <div class="stat-card"><h3>Avg. Price</h3><div class="value">₹{{ "{:,.0f}".format(stats.avg_price) }}</div></div>
+            <div class="stat-card"><h3>Locations</h3><div class="value">{{ stats.locations|length }}</div></div>
+            <div class="stat-card"><h3>Total Users</h3><div class="value">{{ stats.total_users }}</div></div>
+        </div>
+
+        <div class="actions-bar">
+            <button class="btn btn-add" onclick="showModal()">+ Add New Property</button>
+        </div>
+
+        <h2 style="margin-bottom: 1rem; font-size: 1.5rem;">Properties Database</h2>
+        <div class="data-table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Area (sqft)</th>
+                        <th>BHK</th>
+                        <th>Type</th>
+                        <th>Price (₹)</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for p in properties %}
+                    <tr>
+                        <td>{{ p.location }}</td>
+                        <td>{{ p.area }}</td>
+                        <td>{{ p.bhk }}</td>
+                        <td>{{ p.property_type }}</td>
+                        <td>{{ "{:,.0f}".format(p.price) }}</td>
+                        <td>
+                            <a href="{{ url_for('edit_property', id=p._id|string) }}" class="btn btn-edit">Edit</a>
+                            <form action="{{ url_for('delete_property', id=p._id|string) }}" method="POST" style="display:inline-block;" onsubmit="return confirm('Delete this property?')">
+                                <button type="submit" class="btn btn-delete">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <h2 style="margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem;">Registered Users</h2>
+        <div class="data-table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Role</th>
+                        <th>Database ID</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for u in users %}
+                    <tr>
+                        <td>{{ u.username }}</td>
+                        <td>
+                            <span class="role-badge {{ 'admin' if u.role == 'admin' else 'user' }}">
+                                {{ u.role|capitalize }}
+                            </span>
+                        </td>
+                        <td style="font-family: monospace; font-size: 0.85rem; color: #94a3b8;">{{ u._id }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Add Modal -->
+    <div id="addModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add New Property</h2>
+                <span class="close" onclick="hideModal()">&times;</span>
+            </div>
+            <form action="{{ url_for('add_property') }}" method="POST">
+                <div class="form-grid">
+                    <div class="form-group"><label>Area (sqft)</label><input type="number" step="any" name="area" required></div>
+                    <div class="form-group">
+                        <label>Location</label>
+                        <select name="location" required>
+                            <option value="Downtown">Downtown</option>
+                            <option value="Suburbs">Suburbs</option>
+                            <option value="Business District">Business District</option>
+                            <option value="Industrial Area">Industrial Area</option>
+                            <option value="Outskirts">Outskirts</option>
+                        </select>
+                    </div>
+                    <div class="form-group"><label>BHK</label><input type="number" name="bhk" required></div>
+                    <div class="form-group"><label>Bathrooms</label><input type="number" name="bathrooms" required></div>
+                    <div class="form-group">
+                        <label>Property Type</label>
+                        <select name="property_type" required>
+                            <option value="apartment">Apartment</option>
+                            <option value="villa">Villa</option>
+                            <option value="independent house">Independent House</option>
+                        </select>
+                    </div>
+                    <div class="form-group"><label>School Dist (km)</label><input type="number" step="any" name="nearby_school_distance" required></div>
+                    <div class="form-group"><label>Hospital Dist (km)</label><input type="number" step="any" name="nearby_hospital_distance" required></div>
+                    <div class="form-group"><label>Price (₹)</label><input type="number" step="any" name="price" required></div>
+                </div>
+                <button type="submit" class="btn btn-add" style="width:100%; margin-top:1.5rem;">Save Property</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function showModal() { document.getElementById('addModal').style.display = 'block'; }
+        function hideModal() { document.getElementById('addModal').style.display = 'none'; }
+        window.onclick = function(event) { if (event.target == document.getElementById('addModal')) hideModal(); }
+    </script>
+</body>
+</html>
