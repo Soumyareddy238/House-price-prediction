@@ -32,6 +32,16 @@ Frontend: HTML, CSS, JavaScript
 
 Visualization: Chart.js
 
+## 🧠 System Architecture
+
+1. User inputs property details via web interface  
+2. Flask backend processes input data  
+3. Data preprocessing and feature engineering applied  
+4. XGBoost model predicts house price  
+5. KNN algorithm recommends similar properties  
+6. Isolation Forest detects anomalies  
+7. Results displayed on dashboard  
+
 ## 📸 Project Screenshots
 
 ### 🏠 Home Page  
