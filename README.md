@@ -70,7 +70,13 @@ User → Flask Backend → ML Models → Output
 - Model: XGBoost Regressor  
 - R² Score: ~0.96  
 - High prediction accuracy on test data  
-- Efficient feature-based learning  
+- Efficient feature-based learning
+
+  ## 📈 Key Insights
+
+- Location and area are the most influential features  
+- Larger properties show non-linear price trends  
+- Model performs well on mid-range housing data  
   
 ## 📸 Project Screenshots
 
