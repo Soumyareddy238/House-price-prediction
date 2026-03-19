@@ -72,6 +72,12 @@ User → Flask Backend → ML Models → Output
 - High prediction accuracy on test data  
 - Efficient feature-based learning
 
+  ## ⚠️ Limitations
+
+- Model trained on limited/synthetic dataset  
+- Real-world data variations may affect accuracy  
+- Requires continuous data updates for better performance  
+
   ## 📈 Key Insights
 
 - Location and area are the most influential features  
