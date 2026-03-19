@@ -95,7 +95,7 @@ Project Screenshots
 
 The Home Page serves as the central navigation hub of the application, providing an overview of the system and its key functionalities.
 It offers intuitive access to modules such as price prediction, market analysis, and recommendations, ensuring a seamless user experience.
-
+![home_page]_(home_page.png)
 ---
 
 ### 🔐 Login Page
