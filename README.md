@@ -1,5 +1,3 @@
-👇
-
 🏠 Smart Real Estate Price Prediction & Recommendation System
 📌 Description
 
