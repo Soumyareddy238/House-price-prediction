@@ -1,4 +1,13 @@
 🏠 Smart Real Estate Price Prediction & Recommendation System
+
+# 🏠 Smart Real Estate Price Prediction & Recommendation System
+
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Flask](https://img.shields.io/badge/Flask-WebApp-green)
+![Machine Learning](https://img.shields.io/badge/ML-XGBoost-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+## 📌 Description
 📌 Description
 
 The Smart Real Estate Price Prediction System is a full-stack web application built using Python and Flask.
