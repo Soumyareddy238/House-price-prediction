@@ -1,194 +1,124 @@
-# Smart Real Estate Price Prediction and Recommendation System
+👇
 
-An end-to-end Machine Learning web application designed to predict house prices with high accuracy, recommend similar properties, and detect market anomalies.
+🏠 Smart Real Estate Price Prediction & Recommendation System
+📌 Description
 
-## 🚀 Features
-- **Price Prediction**: Real-time estimation based on area, location, BHK, and property type using XGBoost.
-- **Recommendations**: Personalized property suggestions using K-Nearest Neighbors (KNN).
-- **Anomaly Detection**: Identification of overpriced or underpriced properties via Isolation Forest.
-- **Market Insights**: Interactive visualizations of price trends and property distributions using Chart.js.
-- **Premium UI**: Modern, glassmorphism-inspired dashboard for a professional user experience.
+The Smart Real Estate Price Prediction System is a full-stack web application built using Python and Flask.
+It leverages machine learning models to accurately predict house prices, recommend similar properties, detect anomalies in pricing, and provide market insights for better decision-making.
 
-## 🛠️ Tech Stack
-- **Backend**: Python, Flask
-- **Machine Learning**: Scikit-Learn, XGBoost, Pandas, Numpy
-- **Frontend**: HTML5, CSS3 (Vanilla), JavaScript, Chart.js
-- **Model Storage**: Joblib
+🚀 Features
 
-## 📁 Project Structure
-```text
+💰 Price Prediction: Predict house prices based on location, area, BHK, and other features using XGBoost
+
+🤖 Recommendations: Suggest similar properties using K-Nearest Neighbors (KNN)
+
+⚠️ Anomaly Detection: Identify overpriced and underpriced properties using Isolation Forest
+
+📊 Market Insights: Visualize housing trends and data patterns
+
+🔐 Authentication System: Secure Login & Signup functionality
+
+🛠️ Admin Dashboard: Manage users and property data
+
+🛠️ Technologies Used
+
+Backend: Python, Flask
+
+Machine Learning: Scikit-learn, XGBoost, Pandas, NumPy
+
+Database: MongoDB
+
+Frontend: HTML, CSS, JavaScript
+
+Visualization: Chart.js
+
+📸 Project Screenshots
+
+⚠️ Make sure all images are inside a folder named screenshots in your repo.
+
+🏠 Home Page
+
+Landing page providing navigation to all major modules of the system.
+
+<img src="screenshots/Home_Page.Png" width="800"/>
+🔐 Login Page
+
+Secure authentication page for existing users.
+
+<img src="screenshots/Login_Page.Png" width="800"/>
+📝 Signup Page
+
+User registration page for creating new accounts.
+
+<img src="screenshots/Signup_Page.Png" width="800"/>
+🛠️ Admin Dashboard
+
+Central control panel for managing users and data.
+
+<img src="screenshots/Admin_Page.Png" width="800"/>
+💰 Price Estimator
+
+Core module where users input property details to get predicted prices.
+
+<img src="screenshots/Price_Estimator_Page.Png" width="800"/>
+📊 Market Insights
+
+Displays charts and trends for better understanding of housing data.
+
+<img src="screenshots/Market_Insights_Page.Png1" width="800"/>
+<img src="screenshots/Market_Insights_Page.Png2" width="800"/>
+🤖 Recommendation System
+
+Provides similar property suggestions based on user input.
+
+<img src="screenshots/Recommendation_Page.Png" width="800"/>
+📁 Project Structure
 project/
-├── data/               # CSV datasets
-├── models/             # Trained ML models (.pkl)
-├── static/             # CSS and frontend assets
-├── templates/          # HTML templates
-├── app.py              # Flask server
-├── generate_data.py    # Synthetic data generation script
-├── train_model.py      # ML training and evaluation script
-└── README.md           # Documentation
-```
+├── data/               
+├── models/             
+├── static/             
+├── templates/          
+├── screenshots/        # Store all images here
+├── app.py              
+├── train_model.py      
+├── generate_data.py    
+└── README.md           
+💻 How to Run
 
-## 💻 Local Setup
+Install Python
 
-1. **Clone the project** to your local machine.
-2. **Install Dependencies**:
-   ```bash
-   pip install flask pandas numpy scikit-learn xgboost joblib
-   ```
-3. **Generate Data**:
-   ```bash
-   python generate_data.py
-   ```
-4. **Train Models**:
-   ```bash
-   python train_model.py
-   ```
-5. **Run Application**:
-   ```bash
-   python app.py
-   ```
-6. Access the dashboard at `http://127.0.0.1:5000`.
+Install dependencies
 
-## 📊 Evaluation
-The primary model (XGBoost) achieved an R² score of ~0.96 on the synthetic dataset, demonstrating strong predictive capabilities.
-=======
-# House-price-prediction
-House Price Prediction System
+pip install flask pandas numpy scikit-learn xgboost joblib pymongo
 
-Description
-
-House Price Prediction System - A Python and Flask based web application that predicts real estate prices, recommends similar properties, detects overpriced or underpriced houses, and provides insights for better decision-making.
-
----
-
-Features
-
-- Predict house prices based on user inputs
-- Recommend similar properties using KNN algorithm
-- Detect overpriced and underpriced properties (Anomaly Detection)
-- Analyze property data and provide insights
-- Admin dashboard for managing property data
-- User authentication (Signup/Login system)
-
----
-
-Technologies Used
-
-- Python
-- Flask
-- MongoDB
-- Scikit-learn
-- Pandas
-- NumPy
-- HTML
-- CSS
-- JavaScript
-
----
-
-Project Screenshots
-
-## 📸 Application Screenshots
-
-### 🏠 Home Page
-![Home Page](screenshots/home_page.png)
-The Home Page serves as the central navigation hub of the application, providing an overview of features and easy access to different modules.
-
----
-
-### 🔐 Login Page
-![Login Page](screenshots/login.png)
-Secure authentication interface allowing registered users to access the system safely.
-
----
-
-### 📝 Signup Page
-![Signup Page](screenshots/signup.png)
-User-friendly registration page enabling new users to create an account with proper validation.
-
----
-
-### 🛠️ Admin Dashboard
-![Admin Dashboard](screenshots/admin.png)
-Administrative panel to manage datasets, monitor users, and control system operations.
-
----
-
-### 💰 Price Estimator
-![Price Estimator](screenshots/price_estimator.png)
-Core module where users input property details to get accurate house price predictions using machine learning models.
-
----
-
-### 📊 Market Insights
-![Market Insights](screenshots/market_insights.png)
-Displays data visualizations and trends to help users understand housing market behavior.
-
----
-
-### 🤖 Recommendation System
-![Recommendation System](screenshots/recommendation.png)
-Suggests similar properties and optimized pricing insights based on user inputs and predictions.
-## ✨ Key Features of the Application
-
-* End-to-end machine learning pipeline integration
-* User-friendly web interface
-* Secure authentication system
-* Real-time price prediction capability
-* Data-driven market analysis
-* Intelligent recommendation engine
-
----
-
-
-Installation
-
-1. Clone the repository:
-
-git clone https://github.com/your-username/House-price-prediction.git
-cd House-price-prediction
-
-2. Install dependencies:
-
-pip install -r requirements.txt
-
-3. Start MongoDB locally:
-
-mongod
-
-4. Run the application:
+Run the application
 
 python app.py
 
-5. Open in browser:
+Open in browser
 
 http://127.0.0.1:5000/
+📊 Model Performance
 
----
+XGBoost model achieves high accuracy on housing datasets
 
-API Endpoints
+Efficient handling of feature-based predictions
 
-- "/predict" → Predict house price
-- "/recommend" → Get property recommendations
-- "/detect_anomalies" → Detect overpriced/underpriced properties
-- "/insights" → Get analytical insights
+Reliable recommendation and anomaly detection system
 
----
+🔮 Future Improvements
 
-Future Improvements
+🌐 Deploy on AWS / Render
 
-- Deploy the application on cloud (AWS / Render)
-- Improve UI with modern frameworks (React)
-- Add real-time property data integration
-- Enhance explainable AI features
-- Add mobile-friendly design
+📱 Mobile responsive UI
 
----
+🔗 Real-time property API integration
 
-Author
+🧠 Explainable AI (feature importance visualization)
+
+📄 Export reports (PDF/Excel)
+
+👨‍💻 Author
 
 Soumya Reddy
 B.Tech Computer Science Engineering
-
----
->>>>>>> f7287631e4faedf8ccd9bf34e9424ee31cae9d82
