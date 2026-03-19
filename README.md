@@ -52,12 +52,12 @@ Visualization: Chart.js
   - Price  
   - Property type
 
- ## 📊 Model Performance
+## 📊 Model Performance
 
-- Model Used: XGBoost Regressor  
+- Model: XGBoost Regressor  
 - R² Score: ~0.96  
-- High accuracy in predicting house prices  
-- Efficient handling of feature interactions
+- High prediction accuracy on test data  
+- Efficient feature-based learning  
   
 ## 📸 Project Screenshots
 
@@ -108,6 +108,7 @@ Displays charts and trends for better understanding of housing data.
 Provides similar property suggestions based on user input.  
 
 <img src="Recommendations_Page.Png" width="800"/>
+
 📁 Project Structure
 project/
 ├── data/               
