@@ -42,6 +42,16 @@ Visualization: Chart.js
 6. Isolation Forest detects anomalies  
 7. Results displayed on dashboard  
 
+## 📁 Dataset
+
+- Source: Synthetic / Kaggle dataset  
+- Features used:
+  - Location  
+  - Area (sqft)  
+  - Number of bedrooms (BHK)  
+  - Price  
+  - Property type
+    
 ## 📸 Project Screenshots
 
 ### 🏠 Home Page  
