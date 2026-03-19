@@ -51,7 +51,14 @@ Visualization: Chart.js
   - Number of bedrooms (BHK)  
   - Price  
   - Property type
-    
+
+    ## 📊 Model Performance
+
+- Model Used: XGBoost Regressor  
+- R² Score: ~0.96  
+- High accuracy in predicting house prices  
+- Efficient handling of feature interactions
+  
 ## 📸 Project Screenshots
 
 ### 🏠 Home Page  
