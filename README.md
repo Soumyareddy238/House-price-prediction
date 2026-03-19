@@ -32,46 +32,55 @@ Frontend: HTML, CSS, JavaScript
 
 Visualization: Chart.js
 
-📸 Project Screenshots
+## 📸 Project Screenshots
 
-⚠️ Make sure all images are inside a folder named screenshots in your repo.
+### 🏠 Home Page  
+Landing page providing navigation to all major modules of the system.  
 
-🏠 Home Page
+<img src="Home_Page.Png" width="800"/>
 
-Landing page providing navigation to all major modules of the system.
+---
 
-<img src="screenshots/Home_Page.Png" width="800"/>
-🔐 Login Page
+### 🔐 Login Page  
+Secure authentication page for existing users.  
 
-Secure authentication page for existing users.
+<img src="Login_Page.Png" width="800"/>
 
-<img src="screenshots/Login_Page.Png" width="800"/>
-📝 Signup Page
+---
 
-User registration page for creating new accounts.
+### 📝 Signup Page  
+User registration page for creating new accounts.  
 
-<img src="screenshots/Signup_Page.Png" width="800"/>
-🛠️ Admin Dashboard
+<img src="Signup_Page.Png" width="800"/>
 
-Central control panel for managing users and data.
+---
 
-<img src="screenshots/Admin_Page.Png" width="800"/>
-💰 Price Estimator
+### 🛠️ Admin Dashboard  
+Central control panel for managing users and data.  
 
-Core module where users input property details to get predicted prices.
+<img src="Admin_Page.Png" width="800"/>
 
-<img src="screenshots/Price_Estimator_Page.Png" width="800"/>
-📊 Market Insights
+---
 
-Displays charts and trends for better understanding of housing data.
+### 💰 Price Estimator  
+Core module where users input property details to get predicted prices.  
 
-<img src="screenshots/Market_Insights_Page.Png1" width="800"/>
-<img src="screenshots/Market_Insights_Page.Png2" width="800"/>
-🤖 Recommendation System
+<img src="Price_Estimator_Page.Png" width="800"/>
 
-Provides similar property suggestions based on user input.
+---
 
-<img src="screenshots/Recommendation_Page.Png" width="800"/>
+### 📊 Market Insights  
+Displays charts and trends for better understanding of housing data.  
+
+<img src="Market_Insights_Page1.Png" width="800"/>
+<img src="Market_Insights_Page2.Png" width="800"/>
+
+---
+
+### 🤖 Recommendation System  
+Provides similar property suggestions based on user input.  
+
+<img src="Recommendations_Page.Png" width="800"/>
 📁 Project Structure
 project/
 ├── data/               
