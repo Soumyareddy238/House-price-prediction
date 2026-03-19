@@ -52,7 +52,7 @@ Visualization: Chart.js
   - Price  
   - Property type
 
-    ## 📊 Model Performance
+ ## 📊 Model Performance
 
 - Model Used: XGBoost Regressor  
 - R² Score: ~0.96  
