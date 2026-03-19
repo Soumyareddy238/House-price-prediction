@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Smart Real Estate Price Prediction and Recommendation System
 
 An end-to-end Machine Learning web application designed to predict house prices with high accuracy, recommend similar properties, and detect market anomalies.
@@ -89,71 +88,47 @@ Technologies Used
 
 Project Screenshots
 
-## 🖥️ Web Application Interface
+## 📸 Application Screenshots
 
 ### 🏠 Home Page
+![Home Page](screenshots/home_page.png)
+The Home Page serves as the central navigation hub of the application, providing an overview of features and easy access to different modules.
 
-The Home Page serves as the central navigation hub of the application, providing an overview of the system and its key functionalities.
-It offers intuitive access to modules such as price prediction, market analysis, and recommendations, ensuring a seamless user experience.
-![home_page]_(home_page.png)
 ---
 
 ### 🔐 Login Page
-
-The Login Page enables secure authentication for registered users.
-It ensures that only authorized users can access personalized features and system functionalities, maintaining data privacy and integrity.
+![Login Page](screenshots/login.png)
+Secure authentication interface allowing registered users to access the system safely.
 
 ---
 
 ### 📝 Signup Page
-
-The Signup Page allows new users to register by providing essential credentials.
-It is designed for a smooth onboarding process with proper input validation and user-friendly interaction.
+![Signup Page](screenshots/signup.png)
+User-friendly registration page enabling new users to create an account with proper validation.
 
 ---
 
 ### 🛠️ Admin Dashboard
-
-The Admin Dashboard provides centralized control over the application.
-It allows administrators to manage datasets, monitor user activity, and maintain system performance, ensuring efficient operation of the platform.
+![Admin Dashboard](screenshots/admin.png)
+Administrative panel to manage datasets, monitor users, and control system operations.
 
 ---
 
 ### 💰 Price Estimator
-
-The Price Estimator is the core component of the application.
-Users can input various property attributes such as location, number of rooms, area, and other relevant features to obtain predicted house prices.
-
-The predictions are generated using trained machine learning models, ensuring accurate and data-driven outputs.
+![Price Estimator](screenshots/price_estimator.png)
+Core module where users input property details to get accurate house price predictions using machine learning models.
 
 ---
 
 ### 📊 Market Insights
-
-The Market Insights module presents analytical visualizations and trends derived from housing datasets.
-
-It helps users:
-
-* Understand pricing patterns
-* Analyze feature correlations
-* Identify market trends
-
-This enhances decision-making for buyers, sellers, and analysts.
+![Market Insights](screenshots/market_insights.png)
+Displays data visualizations and trends to help users understand housing market behavior.
 
 ---
 
-### 🤝 Recommendation System
-
-The Recommendation System provides intelligent suggestions based on user input and model predictions.
-
-It enhances user engagement by:
-
-* Suggesting similar properties
-* Providing optimized pricing insights
-* Delivering personalized recommendations
-
----
-
+### 🤖 Recommendation System
+![Recommendation System](screenshots/recommendation.png)
+Suggests similar properties and optimized pricing insights based on user inputs and predictions.
 ## ✨ Key Features of the Application
 
 * End-to-end machine learning pipeline integration
