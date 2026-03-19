@@ -8,12 +8,11 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## 📌 Description
-📌 Description
 
 The Smart Real Estate Price Prediction System is a full-stack web application built using Python and Flask.
 It leverages machine learning models to accurately predict house prices, recommend similar properties, detect anomalies in pricing, and provide market insights for better decision-making.
 
-🚀 Features
+##🚀 Features
 
 💰 Price Prediction: Predict house prices based on location, area, BHK, and other features using XGBoost
 
